@@ -111,3 +111,7 @@ a:hover {
   font-weight: normal;
   word-wrap: break-word;
 }
+
+.m-none{
+  margin: 0 !important;
+}

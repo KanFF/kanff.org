@@ -17,8 +17,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 {
     ob_start();
 ?>
-    <div style="background-color: #f0f0f0;" class="rounded-sm
-    pt-2 mb-6 border-blue-500 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
+    <div style="background-color: #f0f0f0;" class="shadow-xl rounded-sm mb-6 border-blue-500 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
     <?php switch ($advantage['mode']) {
         case 2:
             echo 'block';
@@ -44,8 +43,8 @@ function buildAnAdvantage($advantage, $textAtLeft)
                 <div><?= $advantage['description'] ?></div>
             </div>
         </div>
-        <div class="px-2 lg:py-0 block" style="flex: 4;">
-            <img src="imgs/<?= $advantage['img'] ?>" class="m-0 border-none" alt="Image for advantage '<?= $advantage['name'] ?>'">
+        <div class="lg:py-0 block overflow-hidden pl-3" style="flex: 4;">
+            <img src="imgs/<?= $advantage['img'] ?>" style="box-shadow: -2px 0px 8px 1px #aaa;" class="m-5 shadow-xl border-none m-none" alt="Image for advantage '<?= $advantage['name'] ?>'">
         </div>
     </div>
 
@@ -58,15 +57,18 @@ function getBanner()
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-full bg-gray-200 h-64 flex">
-        <div class="flex-1 h-full py-2">
+    <div class="w-full bg-gray-200 h-64 flex shadow-xl border-blue-200 border border-simple rounded-sm">
+        <div class="flex-1 h-full pl-2 pr-5 mt-2">
             <img src="/imgs/logo.svg" alt="" class="ml-2 h-1/3 border-none">
             <div class="text-left ml-2">
-                <h1>Beaucoup de projets commençent, peu aboutissent.</h1>
+                <div class="m-none text-3xl">Beaucoup de projets commençent, peu aboutissent.</div>
+            </div>
+            <div class="ml-2 mt-2">
+                Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
             </div>
         </div>
-        <div class="h-full">
-            <img src="imgs/preview.png" class="h-full border-none" alt="">
+        <div class="h-full overflow-hidden pl-3">
+            <img src="/imgs/preview.png" style="box-shadow: -2px 0px 8px 1px #aaa;" class="h-full border-none" alt="">
         </div>
     </div>
 <?php
