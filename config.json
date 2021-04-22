@@ -1,0 +1,69 @@
+{
+    "onepagemd-template-version": 0.1,
+    "main-title": "Portfolio",
+    "title": "Onepage Portfolio - by Diara Goi",
+    "version": "vX.X",
+    "author": "Diara Goi",
+    "email": "diara.goi@diarajkkkkkl.com",
+    "link": "diarajkkkkkl.com",
+    "include-author": true,
+    "include-return-to-top-button": true,
+    "values-to-interpolate": true,
+    "update": {
+        "secret-in-querystring": "arandomsecretgenerated",
+        "command-to-start-on-update-request": "git pull"
+    },
+    "content": {
+        "titles": {
+            "copy-anchor-button": true,
+            "go-to-anchor-when-copy-anchor": false
+        },
+        "default_language": "en",
+        "content-files": [
+            {
+                "id": "en",
+                "language": "English",
+                "version": "vX.Y"
+            },
+            {
+                "id": "fr",
+                "language": "Français",
+                "version": "vZ.Y"
+            },
+            {
+                "id": "de",
+                "language": "Deutsch",
+                "version": "vZ.X"
+            }
+        ],
+        "php_script_to_load": [
+            "dynamic-values.php",
+            "versions.php",
+            "loremipsum.php",
+            "auto-update-files.php"
+        ],
+        "images": {
+            "image-not-found-info": true,
+            "image-not-found-path": "config/image-if-not-found.png",
+            "relative-url-prefix": ""
+        }
+    },
+    "style": {
+        "css-md-style": "default_kanff",
+        "font-list": "Verdana, Consolas, sans-serif",
+        "font-size": "0.8em",
+        "body": {
+            "maxwidth": "800px",
+            "font-color": "#556611",
+            "background-color": "#112255"
+        },
+        "load-css-files": [
+            "css/md.css",
+            ""
+        ]
+    },
+    "user-settings": {
+        "authorize-cookie": true,
+        "cookie-validity-period-in-days": 50
+    }
+}
