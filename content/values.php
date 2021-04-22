@@ -43,3 +43,4 @@ $values['blogAgeInString'] = date("d.m.Y",  START_DATE_BLOG);
 $values['advantages'] = getAdvantages($advantages);
 $values['banner'] = getBanner();
 $values['about'] = getAboutSection($aboutText);
+$values['newsletter'] = getNewsLetterSection();
