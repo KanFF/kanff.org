@@ -1,15 +1,15 @@
 {
     "onepagemd-template-version": 0.2,
     "main-title": null,
-    "title": "Onepage Portfolio - by Diara Goi",
+    "title": "KanFF",
     "version": "vX.X",
-    "author": "Diara Goi",
-    "email": "diara.goi@diarajkkkkkl.com",
-    "link": "diarajkkkkkl.com",
-    "sourcelink": "git.x/diara/source.git",
-    "link-placeholder": "Website",
+    "author": "KanFF Team",
+    "email": null,
+    "link": "github.com/samuelroland/KanFF",
+    "sourcelink": "",
+    "link-placeholder": "GitHub",
     "include-author": true,
-    "include-return-to-top-button": true,
+    "include-return-to-top-button": false,
     "values-to-interpolate": true,
     "update": {
         "secret-in-querystring": "arandomsecretgenerated",
@@ -38,12 +38,7 @@
                 "version": "v1.5"
             }
         ],
-        "php_script_to_load": [
-            "dynamic-values.php",
-            "versions.php",
-            "loremipsum.php",
-            "auto-update-files.php"
-        ],
+        "php_script_to_load": [],
         "images": {
             "image-not-found-info": true,
             "image-not-found-path": "config/image-if-not-found.png",
