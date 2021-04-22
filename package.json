@@ -4,7 +4,7 @@
   "description": "One page website template, with responsive display, content in Markdown, additionnals PHP generated values, translations, design configs, ...",
   "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "buildcss": "tailwind build tailwind.css -c tailwind.config.js -o dist/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   "homepage": "https://github.com/KanFF/onepageMD#readme",
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5"
   }
 }

@@ -1,6 +1,8 @@
 # Composer packages files
 vendor/
 
+# Build files
+dist/
 
 # Npm packages files
 node_modules
