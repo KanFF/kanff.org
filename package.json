@@ -1,0 +1,23 @@
+{
+  "name": "onepagemd",
+  "version": "1.0.0",
+  "description": "One page website template, with responsive display, content in Markdown, additionnals PHP generated values, translations, design configs, ...",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanFF/onepageMD.git"
+  },
+  "author": "Samuel Roland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanFF/onepageMD/issues"
+  },
+  "homepage": "https://github.com/KanFF/onepageMD#readme",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "tailwindcss": "^2.0.3"
+  }
+}

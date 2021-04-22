@@ -1,0 +1,6 @@
+# Composer packages files
+vendor/
+
+
+# Npm packages files
+node_modules

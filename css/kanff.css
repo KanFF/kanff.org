@@ -1,0 +1,113 @@
+/**
+ *  Project: onepageMD
+ *  File: kanff.css the default style sheet
+ *  Author: Samuel Roland
+ *  Creation date: 20.02.2021
+ */
+/* Header */
+select {
+  border: none;
+  background-color: #aedaf2;
+}
+
+/* Markdown styles */
+.mdstyle {
+  word-break: normal;
+}
+.mdstyle img {
+  border: 1px #717171 solid;
+  max-height: 900px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.mdstyle .thinBlackBorderForTitle {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #38417f;
+  color: #38417f;
+}
+
+.mdstyle .thinBlackBorderForTitle h1 {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mdstyle h1 {
+  color: #38417f;
+}
+
+.mdstyle h2 {
+  color: #348a19;
+  border-bottom: 1px solid;
+}
+
+.mdstyle h3 {
+  color: #ff7700;
+}
+
+.mdstyle h4 {
+  color: #4fb6e3;
+}
+
+.mdstyle h5 {
+  color: #4fb6e3;
+}
+
+.mdstyle h6 {
+  color: #4fb6e3;
+}
+
+.mdstyle p code,
+.mdstyle li code {
+  color: darkblue;
+  background-color: #aedaf2;
+  padding: 1px 4px;
+  border-radius: 5px;
+  font-family: Verdana;
+  font-size: 0.9em;
+  margin: 2px 0px;
+}
+
+.mdstyle pre code {
+  color: darkblue;
+  background-color: transparent;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-family: Verdana;
+  font-size: 0.9em;
+}
+
+.mdstyle pre {
+  background-color: #aedaf2;
+}
+
+.mdstyle li {
+}
+
+.mdstyle p {
+}
+
+.mdstyle .mdTOC li {
+  margin: 0;
+}
+
+/*Remove default backtick around code: */
+.prose code::before {
+  content: none;
+}
+.prose code::after {
+  content: none;
+}
+
+/**Link on hover */
+a:hover {
+  color: black;
+}
+
+/*Remove bold*/
+.prose code {
+  font-weight: normal;
+  word-wrap: break-word;
+}
