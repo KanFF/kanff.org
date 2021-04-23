@@ -93,14 +93,14 @@ $defaultlanguage = $config['content']['default_language'];
     </style>
 </head>
 
-<body class="prose mdstyle" style="background-color: <?= $config['style']['body']['background-color'] ?>;
+<body class="" style="background-color: <?= $config['style']['body']['background-color'] ?>;
  color: <?= $config['style']['body']['font-color'] ?>;
  font-family: <?= $config['style']['font-list'] ?>;
  max-width: <?= $config['style']['body']['maxwidth'] ?>;
  margin: 30px auto;
  padding: 0 15px;
  ">
-    <div class="thinBlackBorderForTitle my-3">
+    <div class="thinBlackBorderForTitle my-3 mdstyle">
         <?php if ($maintitle != null) { ?>
             <div class="my-3 w-full">
                 <h1 class="max-w-max flex-1 text-center my-3"><?= $maintitle; ?></h1>
@@ -125,7 +125,7 @@ $defaultlanguage = $config['content']['default_language'];
     </div>
 
 
-    <div class="mdstyle">
+    <div class="">
         <?= $content ?>
     </div>
 
