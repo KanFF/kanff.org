@@ -57,17 +57,19 @@ function getBanner()
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-full py-2 mb-12 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-simple rounded-sm overflow-hidden">
-        <div class="flex-1 h-full pl-2 pr-5">
-            <img src="imgs/logo.svg" alt="" class="ml-2 h-24 border-none">
-            <div class="text-left ml-2">
-                <div class="m-none text-3xl">Beaucoup de projets commençent, peu aboutissent.</div>
-            </div>
-            <div class="ml-2 mt-2">
-                Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
+    <div class="w-auto py-2 mb-12 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-l-0 border-r-0 border-simple overflow-hidden">
+        <div class="flex-1 flex items-center pl-2 pr-5 ">
+            <div class="w-full">
+                <img src="imgs/logo.svg" alt="" class="w-full ml-2 h-24 border-none xl:text-left text-center xl:mb-3">
+                <div class=" ml-2">
+                    <div class="m-none text-3xl xl:text-left text-center">Beaucoup de projets commençent, peu aboutissent.</div>
+                </div>
+                <div class="w-full ml-2 mt-2 xl:text-left text-center mb-1">
+                    Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
+                </div>
             </div>
         </div>
-        <div class="flex items-center justify-center xs:w-full xl:justify-end py-2">
+        <div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
             <img src="imgs/preview.png" style="dmax-height: 30vh; margin-right: -2px" class="border-none shadow-2xl ml-2 " alt="">
         </div>
     </div>
