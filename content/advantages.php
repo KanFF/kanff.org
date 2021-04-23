@@ -57,7 +57,7 @@ function getBanner()
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-full mb-12 bg-gray-100 h-64 flex shadow-xl border-blue-200 border border-simple rounded-sm overflow-hidden">
+    <div class="w-full mb-12 bg-gray-100 h-64 flex shadow-xl border-blue-500 border border-simple rounded-sm overflow-hidden">
         <div class="flex-1 h-full pl-2 pr-5 mt-2">
             <img src="imgs/logo.svg" alt="" class="ml-2 h-1/3 border-none">
             <div class="text-left ml-2">
@@ -79,13 +79,13 @@ function getAboutSection($aboutText)
 {
     ob_start();
 ?>
-    <div class=" bg-gray-100 p-2 border-blue-300 border rounded-lg shadow-xl px-6 flex items-center">
+    <div class=" bg-gray-100 p-2 border-blue-500 border rounded-lg shadow-xl px-6 flex items-center">
         <div class="flex mt-2">
             <div>
                 <div class="text-3xl">A propos</div>
                 <div class="flex-1 pr-2 mr-2"><?= $aboutText['text'] ?></div>
             </div>
-            <div class="border border-blue-300 py-2 px-4 rounded-md">
+            <div class="border border-blue-500 py-2 px-4 rounded-md">
                 <div class="p-0 m-none text-xl">Contributeur·ices</div>
                 <div class="flex">
                     <?php foreach ($aboutText['contributors'] as $contributor) { ?>
@@ -107,7 +107,7 @@ function getNewsLetterSection()
 {
     ob_start();
 ?>
-    <div class="flex bg-gray-100 p-2 border-blue-300 border rounded-lg px-6">
+    <div class="flex bg-gray-100 p-2 border-blue-500 border rounded-lg px-6">
         <div style="flex: 4">
             <div class="text-xl">Lettre d'information</div>
             <div>
