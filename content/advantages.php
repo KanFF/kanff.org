@@ -57,9 +57,9 @@ function getBanner()
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-full mb-12 bg-gray-100 h-64 flex shadow-xl border-blue-500 border border-simple rounded-sm overflow-hidden">
-        <div class="flex-1 h-full pl-2 pr-5 mt-2">
-            <img src="imgs/logo.svg" alt="" class="ml-2 h-1/3 border-none">
+    <div class="w-full py-2 mb-12 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-simple rounded-sm overflow-hidden">
+        <div class="flex-1 h-full pl-2 pr-5">
+            <img src="imgs/logo.svg" alt="" class="ml-2 h-24 border-none">
             <div class="text-left ml-2">
                 <div class="m-none text-3xl">Beaucoup de projets commençent, peu aboutissent.</div>
             </div>
@@ -67,8 +67,8 @@ function getBanner()
                 Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
             </div>
         </div>
-        <div class="h-full">
-            <img src="imgs/preview.png" class="h-full border-none shadow-2xl" alt="">
+        <div class="flex items-center justify-center xs:w-full xl:justify-end py-2">
+            <img src="imgs/preview.png" style="dmax-height: 30vh; margin-right: -2px" class="border-none shadow-2xl ml-2 " alt="">
         </div>
     </div>
 <?php
