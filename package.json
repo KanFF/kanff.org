@@ -4,7 +4,8 @@
   "description": "One page website template, with responsive display, content in Markdown, additionnals PHP generated values, translations, design configs, ...",
   "main": "index.php",
   "scripts": {
-    "buildcss": "tailwind build tailwind.css -c tailwind.config.js -o dist/tailwind.css"
+    "buildcss": "tailwind build tailwind.css -c tailwind.config.js -o dist/node_modules/tailwindcss/dist/tailwind.css",
+    "build": "build.bat"
   },
   "repository": {
     "type": "git",

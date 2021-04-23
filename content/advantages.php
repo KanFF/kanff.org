@@ -59,7 +59,7 @@ function getBanner()
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
     <div class="w-full mb-12 bg-gray-100 h-64 flex shadow-xl border-blue-200 border border-simple rounded-sm overflow-hidden">
         <div class="flex-1 h-full pl-2 pr-5 mt-2">
-            <img src="/imgs/logo.svg" alt="" class="ml-2 h-1/3 border-none">
+            <img src="imgs/logo.svg" alt="" class="ml-2 h-1/3 border-none">
             <div class="text-left ml-2">
                 <div class="m-none text-3xl">Beaucoup de projets commençent, peu aboutissent.</div>
             </div>
@@ -68,7 +68,7 @@ function getBanner()
             </div>
         </div>
         <div class="h-full">
-            <img src="/imgs/preview.png" class="h-full border-none shadow-2xl" alt="">
+            <img src="imgs/preview.png" class="h-full border-none shadow-2xl" alt="">
         </div>
     </div>
 <?php
