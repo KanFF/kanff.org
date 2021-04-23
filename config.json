@@ -52,7 +52,7 @@
         "font-size": "1em",
         "body": {
             "maxwidth": "1300px",
-            "font-color": "#fffff",
+            "font-color": "#374151",
             "background-color": "#f7f7f7"
         },
         "load-css-files": [
