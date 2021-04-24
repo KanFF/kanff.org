@@ -17,7 +17,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 {
     ob_start();
 ?>
-    <div style="background-color: #f0f0f0;" class="overflow-hidden shadow-xl rounded-sm mb-8 border-blue-500 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
+    <div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-inner rounded-sm mb-8 border-blue-500 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
     <?php switch ($advantage['mode']) {
         case 2:
             echo 'block';
@@ -43,8 +43,8 @@ function buildAnAdvantage($advantage, $textAtLeft)
                 <div class="text-base"><?= $advantage['description'] ?></div>
             </div>
         </div>
-        <div class="lg:py-0 block" style="flex: 4;">
-            <img src="imgs/<?= $advantage['img'] ?>" class="m-5 border-none m-none shadow-2xl" alt="Image for advantage '<?= $advantage['name'] ?>'">
+        <div class="mx-3 mt-2 flex justify-center" style="flex: 4;">
+            <img src="imgs/<?= $advantage['img'] ?>" class="border-none shadow-2xl" alt="Image for advantage '<?= $advantage['name'] ?>'" style="max-height: 70vh;">
         </div>
     </div>
 
@@ -57,14 +57,14 @@ function getBanner()
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-auto py-2 mb-12 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-l-0 border-r-0 border-simple overflow-hidden">
-        <div class="flex-1 flex items-center pl-2 pr-5 ">
+    <div class="w-auto py-2 mb-12 mt-8 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-l-0 border-r-0 border-simple overflow-hidden">
+        <div class="flex-1 flex items-center pl-2 ">
             <div class="w-full">
-                <img src="imgs/logo.svg" alt="" class="w-full ml-2 h-24 border-none xl:text-left text-center xl:mb-3">
-                <div class=" ml-2">
-                    <div class="m-none text-3xl xl:text-left text-center">Beaucoup de projets commençent, peu aboutissent.</div>
+                <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none xl:mb-3">
+                <div class=" mx-4">
+                    <div class="m-none text-3xl text-center">Beaucoup de projets commençent, peu aboutissent.</div>
                 </div>
-                <div class="w-full ml-2 mt-2 xl:text-left text-center mb-1">
+                <div class="mx-4 mt-2 text-center mb-1">
                     Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
                 </div>
             </div>
@@ -81,7 +81,7 @@ function getAboutSection($aboutText)
 {
     ob_start();
 ?>
-    <div class=" bg-gray-100 p-2 border-blue-500 border rounded-lg shadow-xl px-6 flex items-center">
+    <div class=" bg-gray-100 p-2 border-blue-500 border rounded-sm shadow-xl px-6 flex items-center mb-6">
         <div class="flex mt-2">
             <div>
                 <div class="text-3xl">A propos</div>
@@ -109,7 +109,7 @@ function getNewsLetterSection()
 {
     ob_start();
 ?>
-    <div class="flex bg-gray-100 p-2 border-blue-500 border rounded-lg px-6">
+    <div class="bg-gray-100 p-2 border-blue-500 border rounded-sm shadow-xl px-6 flex items-center mb-6">
         <div style="flex: 4">
             <div class="text-xl">Lettre d'information</div>
             <div>
