@@ -1,5 +1,5 @@
 <?php
-require 'content/advantages.php';
+require 'content/views.php';
 $advantages = [
     [
         'name' => "Gestion de projets collaborative",
