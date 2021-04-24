@@ -41,8 +41,8 @@ $defaultlanguage = $config['content']['default_language'];
     //    }
     //}
     ?>
-    <link rel="stylesheet" href="./node_modules/tailwindcss/dist/tailwind.css">
-    <link rel="stylesheet" href="./node_modules/@tailwindcss/typography/dist/typography.min.css">
+
+    <link rel="stylesheet" href="./node_modules/tailwindcss/dist/tailwind.min.css">
     <link rel="stylesheet" href="./css/kanff.css">
     <script src="main.js"></script>
     <style>

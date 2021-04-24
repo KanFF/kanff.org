@@ -48,7 +48,7 @@
     },
     "style": {
         "basic-style": "default_kanff",
-        "font-list": "Open Sans, Consolas, sans-serif",
+        "font-list": "Open Sans, sans-serif",
         "font-size": "1em",
         "body": {
             "maxwidth": "1300px",
