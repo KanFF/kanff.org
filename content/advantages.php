@@ -17,7 +17,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 {
     ob_start();
 ?>
-    <div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-inner rounded-sm mb-8 border-blue-500 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
+    <div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-xl rounded-sm mb-8 border-blue-500 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
     <?php switch ($advantage['mode']) {
         case 2:
             echo 'block';
@@ -81,29 +81,65 @@ function getAboutSection($aboutText)
 {
     ob_start();
 ?>
-    <div class=" bg-gray-100 p-2 border-blue-500 border rounded-sm shadow-xl px-6 flex items-center mb-6">
-        <div class="flex mt-2">
+    <div class=" bg-gray-100 py-4 border-blue-500 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
+        <div class="">
             <div>
                 <div class="text-3xl">A propos</div>
-                <div class="flex-1 pr-2 mr-2"><?= $aboutText['text'] ?></div>
+                <div class="flex-1 mr-6 mt-2">
+                    <?= $aboutText['intro'] ?>
+                </div>
             </div>
-            <div class="border border-blue-500 py-2 px-4 rounded-md">
-                <div class="p-0 m-none text-xl">Contributeur·ices</div>
-                <div class="flex">
-                    <?php foreach ($aboutText['contributors'] as $contributor) { ?>
-                        <div class="bg-yellow-300 rounded-md w-40 h-44 mr-2 p-1 text-center">
-                            <span class="text-sm"><?= $contributor['name'] ?> <br><a href="<?= 'https://github.com/' . $contributor['username'] ?>" class="hover:text-gray-500">@<?= $contributor['username'] ?></a></span>
-                            <div class="w-full flex justify-center items-center  mt-2">
-                                <img src="<?= $contributor['img'] ?>" alt="profil icon of <?= $contributor['username'] ?>" class="rounded-full h-24" style="border-radius: 9999px;">
+            <hr class="border-blue-900 my-2">
+            <div class="flex">
+                <div>
+                    <div class="text-2xl mb-2 mt-1">Contributeur·ices</div>
+                    <div class="lg:flex block">
+                        <div class="mr-2">
+                            <div class="flex">
+                                <?php
+                                $index = 1;
+                                foreach ($aboutText['contributors'] as $contributor) {
+                                    if ($contributor['major'] == true) {
+                                        printContributor($contributor, count($aboutText['contributors']), $index);
+                                        $index++;
+                                    }
+                                }
+                                echo "</div><div class='flex mt-2'>";
+                                foreach ($aboutText['contributors'] as $contributor) {
+                                    if ($contributor['major'] != true) {
+                                        printContributor($contributor, count($aboutText['contributors']), $index);
+                                        $index++;
+                                    }
+                                }
+                                ?>
                             </div>
                         </div>
-                    <?php } ?>
+                        <div class="mt-2 lg:mt-0"><?= $aboutText['text'] ?></div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
 <?php
     return ob_get_clean();
+}
+
+function printContributor($contributor, $nbContributors, $index)
+{
+    $big = $contributor['major'];
+?>
+    <a target="_blank" title="<?= $big ? '' : $contributor['name'] ?>" href="<?= 'https://github.com/' . $contributor['username'] ?>" class="hover:text-black block bg-yellow-200 border-solid border-yellow-400 border hover:bg-yellow-300 p-1 <?= $index != $nbContributors ? 'mr-2' : '' ?>  rounded-md <?= $big ? 'h-40 w-40' : 'h-12 w-12' ?>  text-center">
+        <div class="">
+            <span class="<?= $big ? 'text-sm' : 'hidden' ?> mb-2"><?= $contributor['name'] ?>
+                <br>@<?= $contributor['username'] ?>
+            </span>
+            <div class="w-full <?= $big ? '' : 'h-full' ?>  flex justify-center items-center">
+                <img src="<?= $contributor['img'] ?>" alt="profil icon of <?= $contributor['username'] ?>" class="rounded-full <?= $big ? 'h-24' : '' ?>" style="border-radius: 9999px;">
+            </div>
+        </div>
+    </a>
+<?php
 }
 function getNewsLetterSection()
 {
