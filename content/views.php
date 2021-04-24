@@ -1,7 +1,7 @@
 <?php
 
 //Get HTML of the top banner with slogan, logo, description and other contents.
-function getBanner()
+function getBanner($kanff)
 {
     ob_start();
 ?>
@@ -11,10 +11,10 @@ function getBanner()
             <div class="w-full">
                 <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none xl:mb-3">
                 <div class=" mx-4">
-                    <div class="m-none text-3xl text-center">Beaucoup de projets commençent, peu aboutissent.</div>
+                    <div class="m-none text-3xl text-center"><?= $kanff['slogan'] ?></div>
                 </div>
                 <div class="mx-4 mt-2 text-center mb-1">
-                    Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
+                    <?= $kanff['definition'] ?>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ function getAboutSection($aboutText)
     <div class=" bg-gray-100 py-4 border-blue-500 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
         <div class="">
             <div>
-                <div class="text-3xl">A propos</div>
+                <div class="text-3xl"><?= SECTIONS['about'] ?></div>
                 <div class="flex-1 mr-6 mt-2">
                     <?= $aboutText['intro'] ?>
                 </div>
@@ -96,7 +96,7 @@ function getAboutSection($aboutText)
             <hr class="border-blue-900 my-2">
             <div class="flex">
                 <div>
-                    <div class="text-2xl mb-2 mt-1">Contributeur·ices</div>
+                    <div class="text-2xl mb-2 mt-1"><?= SECTIONS['contributors'] ?></div>
                     <div class="lg:flex block">
                         <div class="mr-2">
                             <div class="flex">
@@ -148,15 +148,15 @@ function printContributor($contributor, $nbContributors, $index)
 }
 
 //Get HTML of the Newsletter section
-function getNewsLetterSection()
+function getNewsLetterSection($news)
 {
     ob_start();
 ?>
     <div class="bg-gray-100 p-2 border-blue-500 border rounded-sm shadow-xl px-6 flex items-center mb-6">
         <div style="flex: 4">
-            <div class="text-xl">Lettre d'information</div>
+            <div class="text-xl"><?= SECTIONS['newsletter'] ?></div>
             <div>
-                Vous souhaitez rester au courant des dernières actualités ?
+                <?= $news['text'] ?>
             </div>
         </div>
         <div style="flex: 3">asdf</div>

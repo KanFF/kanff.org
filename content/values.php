@@ -1,5 +1,17 @@
 <?php
 require 'content/views.php';
+define('SECTIONS', [
+    'about' => 'A propos',
+    'newsletter' => 'Lettre d\'information',
+    'contributors' => 'Contributeur·ices',
+]);
+
+$kanff = [
+    'slogan' => 'Beaucoup de projets commençent, peu aboutissent.',
+    'definition' => 'Une application web libre de gestion de projets à l\'aide de kanbans, pour les groupes, collectifs et associations.',
+    'a' => 'Beaucoup de projets commençent, peu aboutissent.'
+];
+
 $advantages = [
     [
         'name' => "Gestion de projets collaborative",
@@ -28,6 +40,10 @@ $advantages = [
     ]
 ];
 
+$news = [
+    'text' => 'Vous souhaitez rester au courant des dernières actualités ?'
+];
+
 $aboutText = [
     'intro' => "Le projet KanFF n'est pas encore utilisable, il reste une grosse partie de développement, de réflexion et de tests avant une première version utilisable (dite 'version de production').",
     'text' => "Le projet a commencé le xx.04.2020 sur un projet scolaire avec un groupe de 6 personnes. Le projet s'est passé sur plusieurs cours et à la maison, et maintenant 2 apprentis en informatique continuent le projet afin de poursuivre l'aventure de ce projet ambitieux et passionnant.",
@@ -46,6 +62,6 @@ define("START_DATE_BLOG", strtotime("2020-05-18"));
 
 $values['blogAgeInString'] = date("d.m.Y",  START_DATE_BLOG);
 $values['advantages'] = getAdvantages($advantages);
-$values['banner'] = getBanner();
+$values['banner'] = getBanner($kanff);
 $values['about'] = getAboutSection($aboutText);
-$values['newsletter'] = getNewsLetterSection();
+$values['newsletter'] = getNewsLetterSection($news);
