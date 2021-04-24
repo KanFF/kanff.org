@@ -1,5 +1,32 @@
 <?php
 
+//Get HTML of the top banner with slogan, logo, description and other contents.
+function getBanner()
+{
+    ob_start();
+?>
+    <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
+    <div class="w-auto py-2 mb-12 mt-8 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-l-0 border-r-0 border-simple overflow-hidden">
+        <div class="flex-1 flex items-center pl-2 ">
+            <div class="w-full">
+                <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none xl:mb-3">
+                <div class=" mx-4">
+                    <div class="m-none text-3xl text-center">Beaucoup de projets commençent, peu aboutissent.</div>
+                </div>
+                <div class="mx-4 mt-2 text-center mb-1">
+                    Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
+                </div>
+            </div>
+        </div>
+        <div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
+            <img src="imgs/preview.png" style="dmax-height: 30vh; margin-right: -2px" class="border-none shadow-2xl ml-2 " alt="">
+        </div>
+    </div>
+<?php
+    return ob_get_clean();
+}
+
+//Get HTML advantages blocks
 function getAdvantages($advantages)
 {
     $string = "";
@@ -13,6 +40,7 @@ function getAdvantages($advantages)
     return $string;
 }
 
+//Get HTML of the block of one advantage
 function buildAnAdvantage($advantage, $textAtLeft)
 {
     ob_start();
@@ -52,31 +80,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
     return ob_get_clean();
 }
 
-function getBanner()
-{
-    ob_start();
-?>
-    <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-auto py-2 mb-12 mt-8 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-l-0 border-r-0 border-simple overflow-hidden">
-        <div class="flex-1 flex items-center pl-2 ">
-            <div class="w-full">
-                <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none xl:mb-3">
-                <div class=" mx-4">
-                    <div class="m-none text-3xl text-center">Beaucoup de projets commençent, peu aboutissent.</div>
-                </div>
-                <div class="mx-4 mt-2 text-center mb-1">
-                    Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.
-                </div>
-            </div>
-        </div>
-        <div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
-            <img src="imgs/preview.png" style="dmax-height: 30vh; margin-right: -2px" class="border-none shadow-2xl ml-2 " alt="">
-        </div>
-    </div>
-<?php
-    return ob_get_clean();
-}
-
+//Get HTML of the About section
 function getAboutSection($aboutText)
 {
     ob_start();
@@ -125,6 +129,7 @@ function getAboutSection($aboutText)
     return ob_get_clean();
 }
 
+//Get HTML a contributor rectangle (in the About section)
 function printContributor($contributor, $nbContributors, $index)
 {
     $big = $contributor['major'];
@@ -141,6 +146,8 @@ function printContributor($contributor, $nbContributors, $index)
     </a>
 <?php
 }
+
+//Get HTML of the Newsletter section
 function getNewsLetterSection()
 {
     ob_start();
