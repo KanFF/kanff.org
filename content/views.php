@@ -81,7 +81,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 }
 
 //Get HTML of the About section
-function getAboutSection($aboutText)
+function getAboutSection($about, $contributors)
 {
     ob_start();
 ?>
@@ -90,7 +90,7 @@ function getAboutSection($aboutText)
             <div>
                 <div class="text-3xl"><?= SECTIONS['about'] ?></div>
                 <div class="flex-1 mr-6 mt-2">
-                    <?= $aboutText['intro'] ?>
+                    <?= $about['intro'] ?>
                 </div>
             </div>
             <hr class="border-blue-900 my-2">
@@ -102,23 +102,23 @@ function getAboutSection($aboutText)
                             <div class="flex">
                                 <?php
                                 $index = 1;
-                                foreach ($aboutText['contributors'] as $contributor) {
+                                foreach ($contributors as $contributor) {
                                     if ($contributor['major'] == true) {
-                                        printContributor($contributor, count($aboutText['contributors']), $index);
+                                        printContributor($contributor, count($contributors), $index);
                                         $index++;
                                     }
                                 }
                                 echo "</div><div class='flex mt-2'>";
-                                foreach ($aboutText['contributors'] as $contributor) {
+                                foreach ($contributors as $contributor) {
                                     if ($contributor['major'] != true) {
-                                        printContributor($contributor, count($aboutText['contributors']), $index);
+                                        printContributor($contributor, count($contributors), $index);
                                         $index++;
                                     }
                                 }
                                 ?>
                             </div>
                         </div>
-                        <div class="mt-2 lg:mt-0"><?= $aboutText['text'] ?></div>
+                        <div class="mt-2 lg:mt-0"><?= $about['text'] ?></div>
                     </div>
                 </div>
 
