@@ -29,11 +29,16 @@ $advantages = [
 ];
 
 $aboutText = [
-    'text' => "Le projet KanFF n'est pas encore utilisable, il reste une grosse partie de développement, de réflexion et de tests avant une première version utilisable (dite 'version de production').
-    <br>Le projet a commencé le xx.04.2020 sur un projet scolaire avec un groupe de 6 personnes. Le projet s'est passé sur plusieurs cours et à la maison, et maintenant 2 apprentis en informatique continuent le projet afin de poursuivre l'aventure de ce projet ambitieux et passionnant.",
+    'intro' => "Le projet KanFF n'est pas encore utilisable, il reste une grosse partie de développement, de réflexion et de tests avant une première version utilisable (dite 'version de production').",
+    'text' => "Le projet a commencé le xx.04.2020 sur un projet scolaire avec un groupe de 6 personnes. Le projet s'est passé sur plusieurs cours et à la maison, et maintenant 2 apprentis en informatique continuent le projet afin de poursuivre l'aventure de ce projet ambitieux et passionnant.",
     'contributors' => [
-        ['name' => 'Samuel Roland', 'username' => 'samuelroland', 'img' => 'https://avatars.githubusercontent.com/u/47849646?v=4'],
-        ['name' => 'Benoît Pierrehumbert', 'username' => 'cpnvbenoit', 'img' => 'https://avatars.githubusercontent.com/u/47849605?v=4']
+        ['name' => 'Samuel Roland', 'username' => 'samuelroland', 'img' => 'https://avatars.githubusercontent.com/u/47849646?v=4', 'major' => true],
+        ['name' => 'Benoît Pierrehumbert', 'username' => 'cpnvbenoit', 'img' => 'https://avatars.githubusercontent.com/u/47849605?v=4', 'major' => true],
+        ['name' => 'LPOdev', 'username' => 'LPOdev ', 'img' => 'https://avatars.githubusercontent.com/u/47849666?v=4', 'major' => false],
+        ['name' => 'Miguel Soares', 'username' => 'miguelsoaresking500', 'img' => 'https://avatars.githubusercontent.com/u/47849626?v=4', 'major' => false],
+        ['name' => 'Simon Cuany', 'username' => 'SimonCuany', 'img' => 'https://avatars.githubusercontent.com/u/47849679?v=4', 'major' => false],
+        ['name' => 'KevinVaucher', 'username' => 'KevinVaucher', 'img' => 'https://avatars.githubusercontent.com/u/47849513?v=4', 'major' => false],
+        ['name' => 'XCarrel', 'username' => 'XCarrel', 'img' => 'https://avatars.githubusercontent.com/u/7465241?v=4', 'major' => false],
     ]
 ];
 
