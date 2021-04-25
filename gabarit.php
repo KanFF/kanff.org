@@ -43,54 +43,9 @@ $defaultlanguage = $config['content']['default_language'];
     ?>
 
     <link rel="stylesheet" href="./node_modules/tailwindcss/dist/tailwind.min.css">
-    <!--    <link rel="stylesheet" href="./css/kanff.css">-->
-    <script src="main.js"></script>
-    <style>
-        /**Thanks to https://github.com/tailwindlabs/tailwindcss/discussions/3006 
-        Disable top margins to avoid a very big spacing between elements
-        */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        ul,
-        ol,
-        span,
-        img,
-        p,
-        li {
-            margin-top: 0 !important;
-        }
+    <!--    <link rel="stylesheet" href="./css/kanff.css">
+    <script src="main.js"></script>-->
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            padding-top: 5px;
-            /**When section is opened with the anchor, the titles should not be without any space with the top of the browser */
-        }
-
-        li {
-            margin-left: 10px;
-        }
-
-        .border-none {
-            border: none !important;
-        }
-
-        .iconsToCopySection img {
-            margin: 0 !important;
-        }
-
-        @font-face {
-            font-family: "Jetbrains Mono";
-            src: url("css/JetbrainsMono-Regular.ttf");
-        }
-    </style>
 </head>
 
 <body class="" style="background-color: <?= $config['style']['body']['background-color'] ?>;
@@ -123,7 +78,7 @@ $defaultlanguage = $config['content']['default_language'];
             </div>
             <div class="max-w-max flex items-center">
                 <strong class=""><?= $config['author'] ?></strong>
-                <a target="_blank" href="https://github.com/samuelroland/KanFF"><img src="/imgs/github.png" class=" border-none h-5 ml-2" alt=""></a>
+                <a target="_blank" href="https://github.com/samuelroland/KanFF"><img src="imgs/github.png" class=" border-none h-5 ml-2" alt=""></a>
             </div>
         </span>
     </div>
