@@ -6,7 +6,7 @@ function getBanner($kanff)
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-auto py-4 xl:py-2 mb-12 mt-12 bg-gray-100 xl:flex xs:block shadow-xl overflow-hidden rounded-sm border-solid border border-gray-300">
+    <div class="w-auto py-4 xl:py-2 mb-12 mt-12 xl:flex xs:block shadow-xl overflow-hidden rounded-sm border-solid border border-gray-300">
         <div class="flex-1 flex items-center pl-2 ">
             <div class="w-full">
                 <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none mb-3">
@@ -22,7 +22,7 @@ function getBanner($kanff)
             </div>
         </div>
         <div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
-            <img src="imgs/preview.png" style="dmax-height: 30vh; margin-right: -2px" class="border-none shadow-2xl ml-2 " alt="">
+            <img src="imgs/preview.png" style="dmax-height: 30vh; margin-right: -2px" class="border-none shadow-xl ml-2 " alt="">
         </div>
     </div>
 <?php
@@ -32,7 +32,7 @@ function getBanner($kanff)
 //Get HTML advantages blocks
 function getAdvantages($advantages)
 {
-    $string = "";
+    $string = "<div class='mb-12'>";
     $textAtLeft = true; //text at left for the start element 
     foreach ($advantages as $key => $advantage) {
         $string .= buildAnAdvantage($advantage, $textAtLeft);
@@ -40,6 +40,7 @@ function getAdvantages($advantages)
             $textAtLeft = !$textAtLeft;
         }
     }
+    $string .= "</div>";
     return $string;
 }
 
@@ -155,9 +156,9 @@ function getNewsLetterSection($news)
 {
     ob_start();
 ?>
-    <div class="bg-gray-100 p-2 border-blue-500 border rounded-sm shadow-xl px-6 flex items-center mb-6">
+    <div class="bg-gray-100 p-2 mt-4 border-blue-500 border rounded-sm shadow-xl px-6 flex items-center mb-6">
         <div style="flex: 4">
-            <div class="text-xl"><?= SECTIONS['newsletter'] ?></div>
+            <div class="text-2xl"><?= SECTIONS['newsletter'] ?></div>
             <div>
                 <?= $news['text'] ?>
             </div>

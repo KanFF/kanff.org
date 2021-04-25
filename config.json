@@ -45,7 +45,7 @@
         "body": {
             "maxwidth": "1300px",
             "font-color": "#374151",
-            "background-color": "#f7f7f7"
+            "background-color": "#fcc84d0f"
         },
         "load-css-files": [
             "css/md.css",
