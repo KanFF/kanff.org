@@ -43,7 +43,7 @@ $defaultlanguage = $config['content']['default_language'];
     ?>
 
     <link rel="stylesheet" href="./node_modules/tailwindcss/dist/tailwind.min.css">
-    <link rel="stylesheet" href="./css/kanff.css">
+    <!--    <link rel="stylesheet" href="./css/kanff.css">-->
     <script src="main.js"></script>
     <style>
         /**Thanks to https://github.com/tailwindlabs/tailwindcss/discussions/3006 
@@ -112,12 +112,12 @@ $defaultlanguage = $config['content']['default_language'];
                 <span class="text-sm focus-within:cursor-help" title="Version de kanff.org"><?= getTextVersion() ?></span>
                 <?php if ($config['content']['hide-select-if-one-language-only'] != true) { ?>
                     <select name="language" id="sltLanguage" required class="rounded-sm px-1">
-                    <?php
-                    $files = $config['content']['content-files'];
-                    foreach ($files as $file) {
-                        echo "<option value='{$file['id']}' " . ($language == $file['id'] ? "selected" : "") . " >{$file['language']} - {$file['version']}" . ($defaultlanguage == $file['id'] ? " (default)" : "") . "</option>";
-                    }
-                    ?>
+                        <?php
+                        $files = $config['content']['content-files'];
+                        foreach ($files as $file) {
+                            echo "<option value='{$file['id']}' " . ($language == $file['id'] ? "selected" : "") . " >{$file['language']} - {$file['version']}" . ($defaultlanguage == $file['id'] ? " (default)" : "") . "</option>";
+                        }
+                        ?>
                     </select>
                 <?php } ?>
             </div>
