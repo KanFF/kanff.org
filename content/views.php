@@ -179,6 +179,7 @@ function getNewsLetterSection($news)
                     <div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
                 <?php } ?>
             </div>
+            <span class="text-sm text-gray-400">Lettre d'information:</span>
             <div>
                 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
                 <script type="text/javascript" src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>
