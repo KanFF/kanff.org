@@ -6,17 +6,17 @@ function getBanner($kanff)
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-auto py-2 mb-12 mt-8 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-l-0 border-r-0 border-simple overflow-hidden">
+    <div class="w-auto py-2 mb-12 mt-12 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-simple overflow-hidden rounded-sm">
         <div class="flex-1 flex items-center pl-2 ">
             <div class="w-full">
-                <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none xl:mb-3">
+                <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none mb-3">
                 <div class=" mx-4">
                     <div class="m-none text-3xl text-center"><?= $kanff['slogan'] ?></div>
                 </div>
                 <div class="mx-4 mt-2 text-center mb-1">
                     <?= $kanff['definition'] ?>
                 </div>
-                <div class="mx-4 mt-2 text-sm mb-1">
+                <div class="mx-4 mt-2 text-center text-sm mb-1">
                     <?= $kanff['explanation'] ?>
                 </div>
             </div>

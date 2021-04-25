@@ -19,7 +19,6 @@ $contributors = [
     ['name' => 'XCarrel', 'username' => 'XCarrel', 'img' => 'https://avatars.githubusercontent.com/u/7465241?v=4', 'major' => false],
 ];
 
-define("START_DATE_BLOG", strtotime("2020-05-18"));
 
 //Interpolate values in markdown content
 $values['advantages'] = getAdvantages($advantages);

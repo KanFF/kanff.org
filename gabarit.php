@@ -100,26 +100,30 @@ $defaultlanguage = $config['content']['default_language'];
  margin: 30px auto;
  padding: 0 15px;
  ">
-    <div class="thinBlackBorderForTitle my-3 mdstyle">
+    <div class="thinBlackBorderForTitle my-3">
         <?php if ($maintitle != null) { ?>
             <div class="my-3 w-full">
                 <h1 class="max-w-max flex-1 text-center my-3"><?= $maintitle; ?></h1>
             </div>
         <?php } ?>
-        <span class="flex flex-wrap w-full">
+        <span class="flex flex-wrap w-full border-blue-200 border-b border-solid">
             <div class="flex-1">
-                <span class="text-lg cursor-help" title="Version of the text (highest version of the translations)."><?= getTextVersion() ?></span>
-                <select name="language" id="sltLanguage" required class="rounded-sm px-1">
+                <span class=""><strong><?= $config['website-name'] ?></strong></span>
+                <span class="text-sm focus-within:cursor-help" title="Version de kanff.org"><?= getTextVersion() ?></span>
+                <?php if ($config['content']['hide-select-if-one-language-only'] != true) { ?>
+                    <select name="language" id="sltLanguage" required class="rounded-sm px-1">
                     <?php
                     $files = $config['content']['content-files'];
                     foreach ($files as $file) {
                         echo "<option value='{$file['id']}' " . ($language == $file['id'] ? "selected" : "") . " >{$file['language']} - {$file['version']}" . ($defaultlanguage == $file['id'] ? " (default)" : "") . "</option>";
                     }
                     ?>
-                </select>
+                    </select>
+                <?php } ?>
             </div>
-            <div class="max-w-max">
-                <strong class=""><?= $config['author'] ?></strong> - <a href="mailto:<?= $config['email'] ?>">Email</a> <a href="<?= prefixURLIfRelative($config['link']) ?>"><?= $config['link-placeholder'] ?></a> <a href="<?= prefixURLIfRelative($config['sourcelink']) ?>">Source</a>
+            <div class="max-w-max flex items-center">
+                <strong class=""><?= $config['author'] ?></strong>
+                <a target="_blank" href="https://github.com/samuelroland/KanFF"><img src="/imgs/github.png" class=" border-none h-5 ml-2" alt=""></a>
             </div>
         </span>
     </div>

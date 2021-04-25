@@ -2,6 +2,7 @@
     "onepagemd-template-version": 0.2,
     "main-title": null,
     "title": "KanFF",
+    "website-name": "kanff.org",
     "version": "vX.X",
     "author": "KanFF Team",
     "email": null,
@@ -21,21 +22,12 @@
             "go-to-anchor-when-copy-anchor": false
         },
         "default_language": "fr",
+        "hide-select-if-one-language-only": true,
         "content-files": [
-            {
-                "id": "en",
-                "language": "English",
-                "version": "v1.5"
-            },
             {
                 "id": "fr",
                 "language": "Français",
-                "version": "v1.6"
-            },
-            {
-                "id": "de",
-                "language": "Deutsch",
-                "version": "v1.5"
+                "version": "v1.0"
             }
         ],
         "php_script_to_load": [],
