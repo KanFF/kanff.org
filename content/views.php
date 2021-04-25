@@ -19,6 +19,16 @@ function getBanner($kanff)
                 <div class="mx-4 mt-2 text-center text-sm mb-1">
                     <?= $kanff['explanation'] ?>
                 </div>
+                <div class="mx-4 mt-2 text-center text-sm mb-1 flex justify-center">
+                    <a href="https://github.com/samuelroland/KanFF/stargazers" class="border px-1 bg-gray-100 hover:bg-gray-200 rounded-sm border-gray-300 flex items-center" target="_blank">
+                        <span class="flex items-center text-sm">
+                            <img class="inline h-4 mr-1" src="imgs/star.png" alt=""> 8
+                        </span>
+                    </a>
+                    <span class="ml-1 border px-1 bg-gray-100 rounded-sm border-gray-300 flex items-center text-sm">
+                        1220 commits
+                    </span>
+                </div>
             </div>
         </div>
         <div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
