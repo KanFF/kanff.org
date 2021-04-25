@@ -5,32 +5,27 @@
         "contributors": "Contributeur·ices"
     },
     "kanff": {
-        "slogan": "Beaucoup de projets commençent, peu aboutissent.",
-        "definition": "Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.",
-        "explanation": "Gérer plusieurs projets en parallèle à plusieurs personnes peut être complexe, et impossible à réaliser de manière efficace sans outil spécialisé."
+        "slogan": "À faire, en cours, terminé. Suivant!",
+        "definition": "Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.",
+        "explanation": "Bénéficier de la puissance visuel et intuitive du kanban pour gérer des tâches collaborativement."
     },
+    "problems": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatiguante et demande trop de travail ? ",
     "advantages": [
         {
-            "name": "Gestion de projets collaborative",
-            "description": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatiguante et demande trop de travail ? <br>Par défaut, les projets sont visibles à l'interne pour tout le monde. Les projets sont gérés par des groupes et non par des personnes seules.",
-            "img": "projets.png",
-            "mode": 1
-        },
-        {
-            "name": "Tâches gérées à l'aide de kanbans",
-            "description": "Le kanban est un système visuel de gestion de tâches sous diverses formes possibles. Ici les principes sont: Une tâche a 3 états possibles: À faire, En cours ou Terminé. Le kanban permet de gérer les tâches selon leur état via 3 colonnes. Chaque tâche a un·e responsable (obligatoire sauf si À faire).",
+            "name": "Kanbans",
+            "description": "Le kanban est un système de gestion de tâches très visuel. Chaque tâche a 3 états possibles: À faire, En cours ou Terminé. Le kanban est divisé en 3 colonnes, c'est à dire une pour chaque état possible. <br>Les tâches sont donc déplacées de gauche à droite. Elles sont d'abord créé à gauche, réalisée au milieu et finalement mise à droite une fois terminées. Chaque tâche a un·e responsable (obligatoire sauf si À faire).",
             "img": "kanban.png",
             "mode": 2
         },
         {
-            "name": "Ségmentation des projets",
-            "description": "Lorsqu'on réalise des projets de grande envergures qui durent plusieurs mois voir années, il y a beaucoup de tâches à gérer, c'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet mais à une partie d'un projet (ces parties s'appellent les travaux).<br>Seuls les travaux en cours et en pause sont affichés dans le kanban. Les travaux terminés sont minimisés.",
+            "name": "Segmentation des projets",
+            "description": "Lorsqu'on réalise des projets de grande envergures qui durent plusieurs mois voir années, il y a beaucoup de tâches à gérer, c'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet mais à une partie d'un projet (ces parties s'appellent les travaux).<br>Seuls les travaux en cours et en pause sont affichés dans le kanban. Les travaux terminés sont réduits.",
             "img": "works.png",
             "mode": 1
         },
         {
             "name": "Mode d'emploi intégré",
-            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que ce n'est pas nécessaire de savoir tout gérer depuis le départ dans KanFF. Le mode d'emploi intégré est à disposition. <br> Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
+            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que ce n'est pas nécessaire de savoir tout gérer depuis le départ dans KanFF. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.<br> Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
             "img": "manual.png",
             "mode": 1
         },
@@ -45,7 +40,7 @@
         "text": "Vous souhaitez rester au courant des dernières actualités ?"
     },
     "about": {
-        "intro": "Le projet KanFF n'est pas encore utilisable, il reste une grosse partie de développement, de réflexion et de tests avant une première version utilisable (dite \"version de production\").",
-        "text": "Le projet a commencé le xx.04.2020 sur un projet scolaire avec un groupe de 6 personnes. Le projet s'est passé sur plusieurs cours et à la maison, et maintenant 2 apprentis en informatique continuent le projet afin de poursuivre l'aventure de ce projet ambitieux et passionnant."
+        "intro": "KanFF n'est pas encore fini... Il n'y a pas de première version utilisable car il reste une grande partie de développement, de réflexion et de tests avant qu'une première version utilisable (dite \"version de production\") puisse être publiée. La version actuelle est la v2.4-beta (version instable et partielle).",
+        "text": "Le projet a commencé le 26.04.2020 sur un projet scolaire incluant 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres et à la maison. Maintenant 2 développeurs continuent poursuivent l'aventure de ce projet ambitieux et passionnant."
     }
 }
