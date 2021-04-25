@@ -174,20 +174,27 @@ function getNewsLetterSection($news)
             </div>
         </div>
         <div style="flex: 3" class="pl-4">
-            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-            <script type="text/javascript" src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>
+            <div class="flex justify-center items-center">
+                <?php foreach ($news['links'] as $link) { ?>
+                    <div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
+                <?php } ?>
+            </div>
+            <div>
+                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+                <script type="text/javascript" src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>
 
-            <div id="phplistsubscriberesult" class="text-green-600"></div>
-            <form action="https://kanffnews.hosted.phplist.com/lists/?p=subscribe&id=1" method="post" id="phplistsubscribeform">
-                <input type="text" name="email" value="" id="emailaddress" class="w-full p-1 outline-none focus:bg-gray-200 rounded-sm text-black" placeholder="email@example.com" /><br>
-                <button type="submit" id="phplistsubscribe" class="bg-gray-300 hover:bg-gray-400 px-3 py-1 rounded-sm mt-4">S'inscrire</button>
-                <script type="text/javascript">
-                    var pleaseEnter = "";
-                </script>
-                <script type="text/javascript">
-                    var thanksForSubscribing = "<h3>Merci pour votre inscription !</h3><p>Vérifiez svp votre boîte mail et cliquez sur le lien de confirmation.</p>";
-                </script>
-            </form>
+                <div id="phplistsubscriberesult" class="text-green-600"></div>
+                <form action="https://kanffnews.hosted.phplist.com/lists/?p=subscribe&id=1" method="post" id="phplistsubscribeform">
+                    <input type="text" name="email" value="" id="emailaddress" class="w-full p-1 outline-none focus:bg-gray-200 rounded-sm text-black" placeholder="email@example.com" /><br>
+                    <button type="submit" id="phplistsubscribe" class="bg-gray-300 hover:bg-gray-400 px-3 py-1 rounded-sm mt-4">S'inscrire</button>
+                    <script type="text/javascript">
+                        var pleaseEnter = "";
+                    </script>
+                    <script type="text/javascript">
+                        var thanksForSubscribing = "<h3>Merci pour votre inscription !</h3><p>Vérifiez svp votre boîte mail et cliquez sur le lien de confirmation.</p>";
+                    </script>
+                </form>
+            </div>
         </div>
     </div>
 <?php

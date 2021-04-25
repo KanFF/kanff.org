@@ -43,7 +43,14 @@
         }
     ],
     "news": {
-        "text": "Vous souhaitez suivre l'avancement du projet ? Être averti·e des nouveautés, des publications et des futures articles ? Peut-être contribuer à KanFF en rapportant des bugs, en écrivant du code, en faisant des retours ? \n\n**Inscrivez-vous à la lettre d'information** et suivez nous sur les réseaux sociaux alternatifs."
+        "text": "Vous souhaitez suivre l'avancement du projet ? Être averti·e des nouveautés, des publications et des futures articles ? Peut-être contribuer à KanFF en rapportant des bugs, en écrivant du code, en faisant des retours ? \n\n**Inscrivez-vous à la lettre d'information** et suivez-nous sur les réseaux sociaux alternatifs.",
+        "links": [
+            {
+                "name": "Telegram",
+                "icon": "telegram.png",
+                "link": "https://t.me/KanFFNewsFR"
+            }
+        ]
     },
     "about": {
         "intro": "KanFF ce n'est pas seulement une application. C'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! ",
