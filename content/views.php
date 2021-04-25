@@ -49,7 +49,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 {
     ob_start();
 ?>
-    <div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-xl rounded-sm mb-8 border-blue-500 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
+    <div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-xl rounded-sm mb-8 border-blue-300 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
     <?php switch ($advantage['mode']) {
         case 2:
             echo 'block';
@@ -72,7 +72,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
                                 echo 'm-auto';
                         } ?>">
                 <div class="text-2xl mb-2"><?= $advantage['name'] ?></div>
-                <div class="text-base"><?= $advantage['description'] ?></div>
+                <div class="text-base"><?= MDToHTML($advantage['description']) ?></div>
             </div>
         </div>
         <div class="mx-3 mt-2 flex justify-center" style="flex: 4;">
@@ -89,15 +89,15 @@ function getAboutSection($about, $contributors)
 {
     ob_start();
 ?>
-    <div class=" bg-gray-100 py-4 border-blue-500 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
+    <div class=" bg-gray-100 py-4 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
         <div class="">
             <div>
                 <div class="text-3xl"><?= SECTIONS['about'] ?></div>
                 <div class="flex-1 mr-6 mt-2">
-                    <?= $about['intro'] ?>
+                    <?= MDToHTML($about['intro']) ?>
                 </div>
             </div>
-            <hr class="border-blue-500 my-2">
+            <hr class="border-blue-300 my-2">
             <div class="flex">
                 <div>
                     <div class="text-2xl mb-2 mt-1"><?= SECTIONS['contributors'] ?></div>
@@ -122,7 +122,7 @@ function getAboutSection($about, $contributors)
                                 ?>
                             </div>
                         </div>
-                        <div class="mt-2 lg:mt-0"><?= $about['text'] ?></div>
+                        <div class="mt-2 lg:mt-0"><?= MDToHTML($about['text']) ?></div>
                     </div>
                 </div>
 
@@ -156,11 +156,11 @@ function getNewsLetterSection($news)
 {
     ob_start();
 ?>
-    <div class="bg-gray-100 p-2 mt-4 border-blue-500 border rounded-sm shadow-xl px-6 flex items-center mb-6">
+    <div class="bg-gray-100 p-2 mt-4 border-blue-300 border rounded-sm shadow-xl px-6 flex items-center mb-6">
         <div style="flex: 4">
             <div class="text-2xl"><?= SECTIONS['newsletter'] ?></div>
             <div>
-                <?= $news['text'] ?>
+                <?= MDToHTML($news['text']) ?>
             </div>
         </div>
         <div style="flex: 3">asdf</div>
