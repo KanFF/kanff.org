@@ -6,7 +6,7 @@ function getBanner($kanff)
     ob_start();
 ?>
     <!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-    <div class="w-auto py-2 mb-12 mt-12 bg-gray-100 xl:flex xs:block shadow-xl border-blue-500 border border-simple overflow-hidden rounded-sm">
+    <div class="w-auto py-4 xl:py-2 mb-12 mt-12 bg-gray-100 xl:flex xs:block shadow-xl overflow-hidden rounded-sm border-solid border border-gray-300">
         <div class="flex-1 flex items-center pl-2 ">
             <div class="w-full">
                 <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none mb-3">
@@ -96,7 +96,7 @@ function getAboutSection($about, $contributors)
                     <?= $about['intro'] ?>
                 </div>
             </div>
-            <hr class="border-blue-900 my-2">
+            <hr class="border-blue-500 my-2">
             <div class="flex">
                 <div>
                     <div class="text-2xl mb-2 mt-1"><?= SECTIONS['contributors'] ?></div>
