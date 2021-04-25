@@ -19,13 +19,13 @@
         },
         {
             "name": "Segmentation des projets",
-            "description": "Lorsqu'on réalise des projets de grande envergures qui durent plusieurs mois voir années, il y a beaucoup de tâches à gérer, c'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet mais à une partie d'un projet (appelées les travaux).\n\nSeuls les travaux en cours, en pause et terminés sont affichés dans le kanban. Ceux terminés sont réduits.",
+            "description": "Lorsqu'on réalise des projets de grande envergure qui durent plusieurs mois voire des années, il y a beaucoup de tâches à gérer, c'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet mais à une partie d'un projet (appelées les travaux).\n\nSeuls les travaux en cours, en pause et terminés sont affichés dans le kanban. Ceux terminés sont réduits.",
             "img": "works.png",
             "mode": 1
         },
         {
             "name": "Vision d'ensemble",
-            "description": "Par défaut, tout ce qui se passe dans les divers projets est visible pour tout le collectif. Cela permet d'avoir une vision d'ensemble du travail qui se passe dans le collectif et de l'avancement des projets.\n\nL'intégration dans de nouveaux projets est aussi plus simple puisque l'historique du projet est conservé (anciens travaux et journal de bord), et les participant·es, les échéances et tâches à faire sont consultables.",
+            "description": "Par défaut, tout ce qui se passe dans les divers projets est visible par tout le collectif. Cela permet d'avoir une vision d'ensemble du travail qui se passe dans le collectif et de l'avancement des projets.\n\nL'intégration dans de nouveaux projets est aussi plus simple puisque l'historique du projet est conservé (anciens travaux et journal de bord), et les participant·es, les échéances et tâches à faire sont consultables.",
             "img": "globalview.png",
             "mode": 1
         },
@@ -37,7 +37,7 @@
         },
         {
             "name": "Opensource et auto-hébergement",
-            "description": "Le code source est ouvert (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données. \n\nCette transparence permet aussi d'inspecter la base de données, le code, les algorithmes et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de license libre mais cela arrivera dans un moment.",
+            "description": "Le code source est ouvert (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données. \n\nCette transparence permet aussi d'inspecter la base de données, le code, les algorithmes et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de licence libre mais cela arrivera bientôt.",
             "img": "code.png",
             "mode": 1
         }
