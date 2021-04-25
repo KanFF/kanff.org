@@ -16,6 +16,9 @@ function getBanner($kanff)
                 <div class="mx-4 mt-2 text-center mb-1">
                     <?= $kanff['definition'] ?>
                 </div>
+                <div class="mx-4 mt-2 text-sm mb-1">
+                    <?= $kanff['explanation'] ?>
+                </div>
             </div>
         </div>
         <div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
@@ -72,7 +75,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
             </div>
         </div>
         <div class="mx-3 mt-2 flex justify-center" style="flex: 4;">
-            <img src="imgs/<?= $advantage['img'] ?>" class="border-none shadow-2xl" alt="Image for advantage '<?= $advantage['name'] ?>'" style="max-height: 70vh;">
+            <img src="imgs/<?= $advantage['img'] ?>" class="border-none rounded-md rounded-b-none shadow-2xl" alt="Image for advantage '<?= $advantage['name'] ?>'" style="max-height: 70vh;">
         </div>
     </div>
 

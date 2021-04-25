@@ -1,13 +1,13 @@
 {
     "SECTIONS": {
         "about": "A propos",
-        "newsletter": "Lettre d\"information",
+        "newsletter": "Lettre d'information",
         "contributors": "Contributeur·ices"
     },
     "kanff": {
         "slogan": "Beaucoup de projets commençent, peu aboutissent.",
-        "definition": "Une application web libre de gestion de projets à l\"aide de kanbans, pour les groupes, collectifs et associations.",
-        "a": "Beaucoup de projets commençent, peu aboutissent."
+        "definition": "Une application web libre de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.",
+        "explanation": "Gérer plusieurs projets en parallèle à plusieurs personnes peut être complexe, et impossible à réaliser de manière efficace sans outil spécialisé."
     },
     "advantages": [
         {
@@ -18,20 +18,26 @@
         },
         {
             "name": "Tâches gérées à l'aide de kanbans",
-            "description": "Le kanban est un système visuel de gestion de tâches sous diverses formes possibles. Ici les principes sont: Une tâche a 3 états possibles: À faire, En cours ou Terminé. Le kanban permet de gérer les tâches selon leur état via 3 colonnes. Chaque tâche a un·e responsable (obligatoir sauf si À faire).",
+            "description": "Le kanban est un système visuel de gestion de tâches sous diverses formes possibles. Ici les principes sont: Une tâche a 3 états possibles: À faire, En cours ou Terminé. Le kanban permet de gérer les tâches selon leur état via 3 colonnes. Chaque tâche a un·e responsable (obligatoire sauf si À faire).",
             "img": "kanban.png",
             "mode": 2
         },
         {
-            "name": "Gestion collaborative des projets !",
-            "description": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication est plus complexe et demande plus de travail ?",
-            "img": "projets.png",
+            "name": "Ségmentation des projets",
+            "description": "Lorsqu'on réalise des projets de grande envergures qui durent plusieurs mois voir années, il y a beaucoup de tâches à gérer, c'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet mais à une partie d'un projet (ces parties s'appellent les travaux).<br>Seuls les travaux en cours et en pause sont affichés dans le kanban. Les travaux terminés sont minimisés.",
+            "img": "works.png",
             "mode": 1
         },
         {
-            "name": "Gestion collaborative des projets !",
-            "description": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication est plus complexe et demande plus de travail ?",
-            "img": "projets.png",
+            "name": "Mode d'emploi intégré",
+            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que ce n'est pas nécessaire de savoir tout gérer depuis le départ dans KanFF. Le mode d'emploi intégré est à disposition. <br> Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
+            "img": "manual.png",
+            "mode": 1
+        },
+        {
+            "name": "Opensource et auto-hébergement",
+            "description": "Le code source est ouvert (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données.<br> Cette transparence permet aussi d'inspecter la base de données, le code, les algorithmes et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de license libre mais cela arrivera dans un moment.",
+            "img": "code.png",
             "mode": 1
         }
     ],
