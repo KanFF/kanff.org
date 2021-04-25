@@ -166,14 +166,29 @@ function getNewsLetterSection($news)
 {
     ob_start();
 ?>
-    <div class="bg-gray-100 p-2 mt-4 border-blue-300 border rounded-sm shadow-xl px-6 flex items-center mb-6">
+    <div class="bg-gray-100 py-4 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
         <div style="flex: 4">
             <div class="text-2xl"><?= SECTIONS['newsletter'] ?></div>
             <div>
                 <?= MDToHTML($news['text']) ?>
             </div>
         </div>
-        <div style="flex: 3">asdf</div>
+        <div style="flex: 3" class="pl-4">
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+            <script type="text/javascript" src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>
+
+            <div id="phplistsubscriberesult" class="text-green-600"></div>
+            <form action="https://kanffnews.hosted.phplist.com/lists/?p=subscribe&id=1" method="post" id="phplistsubscribeform">
+                <input type="text" name="email" value="" id="emailaddress" class="w-full p-1 outline-none focus:bg-gray-200 rounded-sm text-black" placeholder="email@example.com" /><br>
+                <button type="submit" id="phplistsubscribe" class="bg-gray-300 hover:bg-gray-400 px-3 py-1 rounded-sm mt-4">S'inscrire</button>
+                <script type="text/javascript">
+                    var pleaseEnter = "";
+                </script>
+                <script type="text/javascript">
+                    var thanksForSubscribing = "<h3>Merci pour votre inscription !</h3><p>Vérifiez svp votre boîte mail et cliquez sur le lien de confirmation.</p>";
+                </script>
+            </form>
+        </div>
     </div>
 <?php
     return ob_get_clean();
