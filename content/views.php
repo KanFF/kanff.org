@@ -19,16 +19,16 @@ function getBanner($kanff)
                 <div class="mx-4 mt-2 text-center text-sm mb-1">
                     <?= $kanff['explanation'] ?>
                 </div>
-                <div class="mx-4 mt-2 text-center text-sm mb-1 flex justify-center">
-                    <a href="https://github.com/samuelroland/KanFF/stargazers" class="border px-1 bg-gray-100 hover:bg-gray-200 rounded-sm border-gray-300 flex items-center" target="_blank">
+                <div class="mx-4 text-center text-sm mb-1 flex justify-center flex-wrap">
+                    <a href="https://github.com/samuelroland/KanFF/stargazers" class="border  mt-2  px-1 bg-gray-100 hover:bg-gray-200 rounded-sm border-gray-300 flex items-center" target="_blank">
                         <span class="flex items-center text-sm">
                             <img class="inline h-4 mr-1" src="imgs/star.png" alt=""><strong>8</strong>
                         </span>
                     </a>
-                    <span class="ml-1 border px-1 bg-gray-100 rounded-sm border-gray-300 flex items-center text-sm">
+                    <span class="ml-1 mt-2 border px-1 bg-gray-100 rounded-sm border-gray-300 text-sm">
                         1220 commits
                     </span>
-                    <span class="ml-1 border px-1 bg-gray-100 rounded-sm border-gray-300 flex items-center text-sm">
+                    <span class="ml-1 mt-2 border px-1 bg-gray-100 rounded-sm border-gray-300 text-sm">
                         Pas de version utilisable. Développement en cours.
                     </span>
                 </div>
