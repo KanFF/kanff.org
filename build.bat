@@ -7,4 +7,4 @@ copy imgs dist\imgs
 copy favicon.ico dist\favicon.ico
 copy robots.txt dist\robots.txt
 tree /F dist
-start firefox dist/index.html
+REM start firefox dist/index.html
