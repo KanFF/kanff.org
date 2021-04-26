@@ -11,7 +11,7 @@ function getBanner($kanff)
             <div class="w-full">
                 <img src="imgs/logo.svg" alt="" class="w-full h-24 border-none mb-3">
                 <div class=" mx-4">
-                    <div class="m-none text-3xl text-center"><?= $kanff['slogan'] ?></div>
+                    <h1 class="m-none text-3xl text-center"><?= $kanff['slogan'] ?></h1>
                 </div>
                 <div class="mx-4 mt-2 text-center mb-1">
                     <?= $kanff['definition'] ?>
@@ -22,7 +22,7 @@ function getBanner($kanff)
                 <div class="mx-4 mt-2 text-center text-sm mb-1 flex justify-center">
                     <a href="https://github.com/samuelroland/KanFF/stargazers" class="border px-1 bg-gray-100 hover:bg-gray-200 rounded-sm border-gray-300 flex items-center" target="_blank">
                         <span class="flex items-center text-sm">
-                            <img class="inline h-4 mr-1" src="imgs/star.png" alt=""> 8
+                            <img class="inline h-4 mr-1" src="imgs/star.png" alt=""><strong>8</strong>
                         </span>
                     </a>
                     <span class="ml-1 border px-1 bg-gray-100 rounded-sm border-gray-300 flex items-center text-sm">
@@ -81,7 +81,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
                             default:
                                 echo 'm-auto';
                         } ?>">
-                <div class="text-2xl mb-2"><?= $advantage['name'] ?></div>
+                <d2 class="text-2xl mb-2"><?= $advantage['name'] ?></d2>
                 <div class="text-base"><?= MDToHTML($advantage['description']) ?></div>
             </div>
         </div>
@@ -102,7 +102,7 @@ function getAboutSection($about, $contributors)
     <div class=" bg-gray-100 py-4 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
         <div class="">
             <div>
-                <div class="text-3xl"><?= SECTIONS['about'] ?></div>
+                <h2 class="text-2xl"><?= SECTIONS['about'] ?></h2>
                 <div class="flex-1 mr-6 mt-2">
                     <?= MDToHTML($about['intro']) ?>
                 </div>
@@ -110,7 +110,7 @@ function getAboutSection($about, $contributors)
             <hr class="border-blue-300 my-2">
             <div class="flex">
                 <div>
-                    <div class="text-2xl mb-2 mt-1"><?= SECTIONS['contributors'] ?></div>
+                    <h3 class="text-xl mb-2 mt-1"><?= SECTIONS['contributors'] ?></h3>
                     <div class="lg:flex block">
                         <div class="mr-2">
                             <div class="flex">
@@ -168,7 +168,7 @@ function getNewsLetterSection($news)
 ?>
     <div class="bg-gray-100 py-4 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
         <div style="flex: 4">
-            <div class="text-2xl"><?= SECTIONS['newsletter'] ?></div>
+            <h2 class="text-2xl"><?= SECTIONS['newsletter'] ?></h2>
             <div>
                 <?= MDToHTML($news['text']) ?>
             </div>

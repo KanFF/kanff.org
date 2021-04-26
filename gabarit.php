@@ -55,6 +55,7 @@ $defaultlanguage = $config['content']['default_language'];
  margin: 30px auto;
  padding: 0 15px;
  ">
+    <span class="underline hover:text-blue-500" hidden>test</span>
     <div class="thinBlackBorderForTitle my-3">
         <?php if ($maintitle != null) { ?>
             <div class="my-3 w-full">
