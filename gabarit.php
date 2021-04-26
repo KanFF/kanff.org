@@ -45,15 +45,14 @@ $defaultlanguage = $config['content']['default_language'];
     <link rel="stylesheet" href="./node_modules/tailwindcss/dist/tailwind.min.css">
     <!--    <link rel="stylesheet" href="./css/kanff.css">
     <script src="main.js"></script>-->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="" style="background-color: <?= $config['style']['body']['background-color'] ?>;
+<body class="px-2 md:px-2 lg:px-3" style="background-color: <?= $config['style']['body']['background-color'] ?>;
  color: <?= $config['style']['body']['font-color'] ?>;
  font-family: <?= $config['style']['font-list'] ?>;
  max-width: <?= $config['style']['body']['maxwidth'] ?>;
- margin: 30px auto;
- padding: 0 15px;
+ margin: 20px auto;
  ">
     <span class="underline hover:text-blue-500" hidden>test</span>
     <div class="thinBlackBorderForTitle my-3">

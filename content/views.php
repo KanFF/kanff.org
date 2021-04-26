@@ -66,10 +66,10 @@ function buildAnAdvantage($advantage, $textAtLeft)
         default:
             echo 'lg:flex sm:block';
     } ?>">
-        <div class="px-6 flex 
+        <div class="lg:px-6 md:px-4 sm:px-3 px-2 flex 
         <?php switch ($advantage['mode']) {
             case 2:
-                echo 'py-4';
+                echo 'lg:px-4 md:px-3 sm:px-2 px-1';
                 break;
             default:
                 echo 'sm:py-4 lg:py-0';
@@ -85,8 +85,8 @@ function buildAnAdvantage($advantage, $textAtLeft)
                 <div class="text-base"><?= MDToHTML($advantage['description']) ?></div>
             </div>
         </div>
-        <div class="mx-3 mt-2 flex justify-center" style="flex: 4;">
-            <img src="imgs/<?= $advantage['img'] ?>" class="border-none rounded-md rounded-b-none shadow-2xl" alt="Image for advantage '<?= $advantage['name'] ?>'" style="max-height: 70vh;">
+        <div class="lg:mx-3 md:mx-2 mx-1 mt-2" style="flex: 4;">
+            <img src="imgs/<?= $advantage['img'] ?>" class="border-none sm:rounded-md rounded-sm  rounded-b-none shadow-2xl" alt="Image for advantage '<?= $advantage['name'] ?>'" style="">
         </div>
     </div>
 
@@ -99,7 +99,7 @@ function getAboutSection($about, $contributors)
 {
     ob_start();
 ?>
-    <div class=" bg-gray-100 py-4 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
+    <div class=" bg-gray-100 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center mb-6">
         <div class="">
             <div>
                 <h2 class="text-2xl"><?= SECTIONS['about'] ?></h2>
@@ -166,14 +166,14 @@ function getNewsLetterSection($news)
 {
     ob_start();
 ?>
-    <div class="bg-gray-100 py-4 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 flex items-center mb-6">
+    <div class="bg-gray-100 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center mb-6">
         <div style="flex: 4">
             <h2 class="text-2xl"><?= SECTIONS['newsletter'] ?></h2>
             <div>
                 <?= MDToHTML($news['text']) ?>
             </div>
         </div>
-        <div style="flex: 3" class="pl-4">
+        <div style="flex: 3" class="lg:pl-4">
             <div class="flex justify-center items-center">
                 <?php foreach ($news['links'] as $link) { ?>
                     <div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
@@ -187,7 +187,7 @@ function getNewsLetterSection($news)
                 <div id="phplistsubscriberesult" class="text-green-600"></div>
                 <form action="https://kanffnews.hosted.phplist.com/lists/?p=subscribe&id=1" method="post" id="phplistsubscribeform">
                     <input type="text" name="email" value="" id="emailaddress" class="w-full p-1 outline-none focus:bg-gray-200 rounded-sm text-black" placeholder="email@example.com" /><br>
-                    <button type="submit" id="phplistsubscribe" class="bg-gray-300 hover:bg-gray-400 px-3 py-1 rounded-sm mt-4">S'inscrire</button>
+                    <button type="submit" id="phplistsubscribe" class="bg-gray-300 hover:bg-blue-300 px-3 py-1 rounded-sm mt-4">S'inscrire</button>
                     <script type="text/javascript">
                         var pleaseEnter = "";
                     </script>
