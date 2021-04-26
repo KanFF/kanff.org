@@ -1,0 +1,62 @@
+{
+    "SECTIONS": {
+        "about": "A propos",
+        "newsletter": "Lettre d'information",
+        "contributors": "Contributeur·ices"
+    },
+    "kanff": {
+        "slogan": "À faire, en cours, terminé. Suivant!",
+        "definition": "Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.",
+        "explanation": "Bénéficier de la puissance visuel et intuitive du kanban pour gérer les tâches de plusieurs projets efficacement et collectivement."
+    },
+    "problems": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatiguante et demande trop de travail ? ",
+    "advantages": [
+        {
+            "name": "Kanban",
+            "description": "Le kanban est un système de gestion de tâches très visuel qui peut prendre différentes formes. Dans KanFF, il y a 3 colonnes parce que les tâches ont 3 états possibles: À faire, En cours ou Terminé. Les tâches sont déplacées de gauche à droite, de colonne en colonne.",
+            "img": "kanban.png",
+            "mode": 2
+        },
+        {
+            "name": "Segmentation des projets",
+            "description": "Lorsqu'on réalise des projets de grande envergure qui durent plusieurs mois voire des années, il y a beaucoup de tâches à gérer, c'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet mais à une partie d'un projet (appelées les travaux).\n\nSeuls les travaux en cours, en pause et terminés sont affichés dans le kanban. Ceux qui sont terminés sont réduits.",
+            "img": "works.png",
+            "mode": 1
+        },
+        {
+            "name": "Vision d'ensemble",
+            "description": "Par défaut, tout ce qui se passe dans les divers projets est visible par tout le collectif. Cela permet d'avoir une vision d'ensemble du travail qui se passe dans le collectif et de l'avancement des projets.\n L'intégration de nouvelles personnes dans des projets existants est aussi plus simple puisque l'historique du projet est conservé (anciens travaux et journal de bord), et les participant·es, les échéances ainsi que les tâches à faire, sont consultables.",
+            "img": "globalview.png",
+            "mode": 1
+        },
+        {
+            "name": "Mode d'emploi intégré",
+            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que vous apprendrez petit à petit à l'utiliser. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
+            "img": "manual.png",
+            "mode": 1
+        },
+        {
+            "name": "Opensource et auto-hébergement",
+            "description": "Le code source est ouvert (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données. \n\nCette transparence permet aussi d'inspecter la base de données, le code, les algorithmes et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de licence libre mais cela arrivera bientôt.",
+            "img": "code.png",
+            "mode": 1
+        }
+    ],
+    "news": {
+        "text": "**Vous souhaitez suivre l'avancement du projet?** Être averti·e des nouveautés, des publications et des futurs articles? Peut-être contribuer à KanFF en rapportant des bugs, en faisant des retours, en écrivant du code ou de la documentation? \n\n **Il y a de nombreuses manières de nous aider** (techniques et non techniques), cependant nous réfléchissons encore à la meilleure manière de gérer les contributions, à installer une instance de tests, et d'avoir un moyen de faire des retours, ...\n\n**Inscrivez-vous à la lettre d'information** pour ne rien louper et suivez-nous sur les réseaux sociaux alternatifs.",
+        "links": [
+            {
+                "name": "Telegram",
+                "icon": "telegram.png",
+                "link": "https://t.me/KanFFNewsFR"
+            }
+        ]
+    },
+    "about": {
+        "intro": "KanFF ce n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! ",
+        "text": "**Pour avoir un rapide aperçu**, ce projet scolaire a commencé avec 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) en classe et à la maison. \n\nCette année inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, l'application n'est pas encore terminée** et il faudra encore plusieurs mois avant qu'une première version stable soit publiée. \n\n Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
+    },
+    "footer": {
+        "notes": "Ce site est mise à jour régulièrement durant cette semaine. Si vous avez vu des erreurs ou voulez suggérer des modifications, merci de nous contacter par email à 'kanff at pm.me'."
+    }
+}

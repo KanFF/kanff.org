@@ -1,13 +1,17 @@
 {
-    "onepagemd-template-version": 0.1,
-    "main-title": "Portfolio",
-    "title": "Onepage Portfolio - by Diara Goi",
-    "version": "vX.X",
-    "author": "Diara Goi",
-    "email": "diara.goi@diarajkkkkkl.com",
-    "link": "diarajkkkkkl.com",
+    "onepagemd-template-version": 0.2,
+    "main-title": null,
+    "title": "KanFF",
+    "website-name": "kanff.org",
+    "version": "v1.0",
+    "versiondate": "26.04.2021",
+    "author": "KanFF Team",
+    "email": null,
+    "link": "github.com/samuelroland/KanFF",
+    "sourcelink": "",
+    "link-placeholder": "GitHub",
     "include-author": true,
-    "include-return-to-top-button": true,
+    "include-return-to-top-button": false,
     "values-to-interpolate": true,
     "update": {
         "secret-in-querystring": "arandomsecretgenerated",
@@ -18,44 +22,31 @@
             "copy-anchor-button": true,
             "go-to-anchor-when-copy-anchor": false
         },
-        "default_language": "en",
+        "default_language": "fr",
+        "hide-select-if-one-language-only": true,
         "content-files": [
-            {
-                "id": "en",
-                "language": "English",
-                "version": "vX.Y"
-            },
             {
                 "id": "fr",
                 "language": "Français",
-                "version": "vZ.Y"
-            },
-            {
-                "id": "de",
-                "language": "Deutsch",
-                "version": "vZ.X"
+                "version": "v1.0"
             }
         ],
-        "php_script_to_load": [
-            "dynamic-values.php",
-            "versions.php",
-            "loremipsum.php",
-            "auto-update-files.php"
-        ],
+        "php_script_to_load": [],
         "images": {
             "image-not-found-info": true,
             "image-not-found-path": "config/image-if-not-found.png",
             "relative-url-prefix": ""
-        }
+        },
+        "additionnal-values": "values.php"
     },
     "style": {
-        "css-md-style": "default_kanff",
-        "font-list": "Verdana, Consolas, sans-serif",
-        "font-size": "0.8em",
+        "basic-style": "default_kanff",
+        "font-list": "Open Sans, sans-serif",
+        "font-size": "1em",
         "body": {
-            "maxwidth": "800px",
-            "font-color": "#556611",
-            "background-color": "#112255"
+            "maxwidth": "1300px",
+            "font-color": "#374151",
+            "background-color": "#fcc84d0f"
         },
         "load-css-files": [
             "css/md.css",
