@@ -31,7 +31,7 @@
         },
         {
             "name": "Mode d'emploi intégré",
-            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que ce n'est pas nécessaire de . Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
+            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que vous apprendrez petit à petit à l'utiliser. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
             "img": "manual.png",
             "mode": 1
         },
@@ -43,7 +43,7 @@
         }
     ],
     "news": {
-        "text": "**Vous souhaitez suivre l'avancement du projet?** Être averti·e des nouveautés, des publications et des futurs articles? Peut-être contribuer à KanFF en rapportant des bugs, en faisant des retours, en écrivant du code ou de la documentation? \n\n **Il y a de nombreuses manières de nous aider** (technique et non technique), cependant nous réfléchissons encore à la meilleure manière de gérer les contributions, à installer une instance de test, et d'avoir un moyen de faire des retours, ...\n\n**Inscrivez-vous à la lettre d'information** pour ne rien louper et suivez-nous sur les réseaux sociaux alternatifs.",
+        "text": "**Vous souhaitez suivre l'avancement du projet?** Être averti·e des nouveautés, des publications et des futurs articles? Peut-être contribuer à KanFF en rapportant des bugs, en faisant des retours, en écrivant du code ou de la documentation? \n\n **Il y a de nombreuses manières de nous aider** (techniques et non techniques), cependant nous réfléchissons encore à la meilleure manière de gérer les contributions, à installer une instance de tests, et d'avoir un moyen de faire des retours, ...\n\n**Inscrivez-vous à la lettre d'information** pour ne rien louper et suivez-nous sur les réseaux sociaux alternatifs.",
         "links": [
             {
                 "name": "Telegram",
