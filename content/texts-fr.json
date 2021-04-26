@@ -31,7 +31,7 @@
         },
         {
             "name": "Mode d'emploi intégré",
-            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que ce n'est pas nécessaire de savoir tout gérer depuis le départ dans KanFF. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
+            "description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que ce n'est pas nécessaire de . Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
             "img": "manual.png",
             "mode": 1
         },
@@ -43,7 +43,7 @@
         }
     ],
     "news": {
-        "text": "Vous souhaitez suivre l'avancement du projet ? Être averti·e des nouveautés, des publications et des futures articles ? Peut-être contribuer à KanFF en rapportant des bugs, en écrivant du code, en faisant des retours ? \n\n**Inscrivez-vous à la lettre d'information** et suivez-nous sur les réseaux sociaux alternatifs.",
+        "text": "**Vous souhaitez suivre l'avancement du projet?** Être averti·e des nouveautés, des publications et des futurs articles? Peut-être contribuer à KanFF en rapportant des bugs, en faisant des retours, en écrivant du code ou de la documentation? \n\n **Il y a de nombreuses manières de nous aider** (technique et non technique), cependant nous réfléchissons encore à la meilleure manière de gérer les contributions, à installer une instance de test, et d'avoir un moyen de faire des retours, ...\n\n**Inscrivez-vous à la lettre d'information** pour ne rien louper et suivez-nous sur les réseaux sociaux alternatifs.",
         "links": [
             {
                 "name": "Telegram",
@@ -54,6 +54,6 @@
     },
     "about": {
         "intro": "KanFF ce n'est pas seulement une application. C'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! ",
-        "text": "Pour avoir un rapide aperçu, cette année inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, l'application n'est pas encore terminée** et il faudra encore plusieurs mois avant qu'une première version stable soit publiée. La version actuelle est la *v2.4-beta*. \n\nCe projet scolaire a commencé avec 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) et à la maison. Maintenant, les cours consacrés au projet sont finis, mais le projet continue avec Samuel et Benoît."
+        "text": "Pour avoir un rapide aperçu, cette année inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, l'application n'est pas encore terminée** et il faudra encore plusieurs mois avant qu'une première version stable soit publiée. \n\nCe projet scolaire a commencé avec 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) en classe et à la maison. Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
     }
 }
