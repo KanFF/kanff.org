@@ -25,10 +25,11 @@ $defaultlanguage = $config['content']['default_language'];
 
 <head>
     <meta charset="utf-8">
-    <title><?= $title; ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?= $title; ?> - <?= $kanff['definition'] ?></title>
 
-    <!-- CSS files -->
     <?php
+    //<!-- CSS files -->
     ////TODO: choose the CSS file to load
     //$basicstyle = $config['style']['basic-style'];
     //if ($basicstyle != null && in_array($basicstyle, array_keys(CSS_FILES)) == true) {
@@ -43,9 +44,10 @@ $defaultlanguage = $config['content']['default_language'];
     ?>
 
     <link rel="stylesheet" href="./node_modules/tailwindcss/dist/tailwind.min.css">
-    <!--    <link rel="stylesheet" href="./css/kanff.css">
-    <script src="main.js"></script>-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php
+    //<!--    <link rel="stylesheet" href="./css/kanff.css">
+    //<script src="main.js"></script>-->
+    ?>
 </head>
 
 <body class="px-2 md:px-2 lg:px-3" style="background-color: <?= $config['style']['body']['background-color'] ?>;
