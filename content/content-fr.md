@@ -13,3 +13,4 @@
 {advantages}
 {newsletter}
 {about}
+{footer}

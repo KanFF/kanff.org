@@ -7,6 +7,7 @@ $kanff = $data['kanff'];
 $advantages = $data['advantages'];
 $news = $data['news'];
 $about = $data['about'];
+$footer = $data['footer'];
 
 // Contributors are listed here and not in texts-*.json because they don't need any translations.
 $contributors = [
@@ -25,3 +26,4 @@ $values['advantages'] = getAdvantages($advantages);
 $values['banner'] = getBanner($kanff);
 $values['about'] = getAboutSection($about, $contributors);
 $values['newsletter'] = getNewsLetterSection($news);
+$values['footer'] = getFooter($footer);

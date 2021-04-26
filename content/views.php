@@ -28,6 +28,9 @@ function getBanner($kanff)
                     <span class="ml-1 border px-1 bg-gray-100 rounded-sm border-gray-300 flex items-center text-sm">
                         1220 commits
                     </span>
+                    <span class="ml-1 border px-1 bg-gray-100 rounded-sm border-gray-300 flex items-center text-sm">
+                        Pas de version utilisable. Développement en cours.
+                    </span>
                 </div>
             </div>
         </div>
@@ -197,6 +200,18 @@ function getNewsLetterSection($news)
                 </form>
             </div>
         </div>
+    </div>
+<?php
+    return ob_get_clean();
+}
+
+function getFooter($footer)
+{
+    ob_start();
+?>
+    <div class="w-full border px-1 bg-gray-100 rounded-sm border-gray-300 text-xs sm:text-sm">
+        <?= $footer['notes'] ?>
+
     </div>
 <?php
     return ob_get_clean();
