@@ -1,0 +1,59 @@
+{
+	"SECTIONS": {
+		"about": "About",
+		"newsletter": "Newsletter",
+		"contributors": "Contributors"
+	},
+	"kanff": {
+		"slogan": "To do, in run, done. Next!",
+		"definition": "An opensource web application to manage projects with kanban boards, for groups, collectives and associations.",
+		"explanation": "Benefit from the visual and intuitive power of the kanban board to manage tasks on severals projects efficitently and collectivly."
+	},
+	"problems": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatiguante et demande trop de travail ? ",
+	"advantages": [
+		{
+			"name": "Kanban",
+			"description": "The kanban board is a very visual task management system that can have multiples forms. In KanFF, there are 3 columns because tasks have only 2 possible states: To do, In run or Done. Tasks are moved from left to right, from column to another.",
+			"img": "kanban.png",
+			"mode": 2
+		},
+		{
+			"name": "Projects segmentation",
+			"description": "When we realize large scale projects on a long time, there is a lot of tasks to manage. That's why in KanFF tasks are not only linked to a project but to a part of a project (called works). \n\nOnly works in run, on break or done are displayed in the kanban. The done ones are reducted.",
+			"img": "works.png",
+			"mode": 1
+		},
+		{
+			"name": "Global vision",
+			"description": "By default, all what happens in different projects is visible for the whole collective. That permits to have a global vision of what concretely happens in the collective and on the projects progression. \n Integration of new persons within existing projects is easier too because the project history is conserved (old workd and the logbook), and participants, deadlines and tasks to do, are readable. ",
+			"img": "globalview.png",
+			"mode": 1
+		},
+		{
+			"name": "Integrated manuel",
+			"description": "If you doesn't feel confortable with computers, remind you that it's not necessary to XXXXX. The integrated manual is available and contains some screenshots and some concret examples. \n\n It is quickly accessible on each page through a simple button. It evoluate and enhanced time to time.",
+			"img": "manual.png",
+			"mode": 1
+		},
+		{
+			"name": "Opensource and selfhosting",
+			"description": "The source code is open (and available <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>on GitHub</a>. So it's possible to self-hoset and instance and to have full control over your data. \n\nThis transparency make it possibe to inspect the database, the code, the algorithms and the verify that the documentation is not badthinking. KanFF has not yet a free software license, but this will arrive soon.",
+			"img": "code.png",
+			"mode": 1
+		}
+	],
+	"news": {
+		"text": "You wish to follow the progression of the KanFF project ? To receive information about news, releases and futur articles ? Maybe contribute to KanFF by reporting bugs, making feedbacks, writing code or documentations ? Suscribe to the newsletter and follow us of alternatives social networks.",
+		"links": [
+			{
+				"name": "Telegram",
+				"icon": "telegram.png",
+				"link": "https://t.me/KanFFNews"
+			}
+		]
+	},
+	"about": {
+		"intro": "KanFF is not only an application. It's a big project that is now 1 year old (started the 26.04.2020)",
+		"text": "To have a quick preview, this year includes 10 month of work on free time, more than 600 jours cumulated of work, 10 beta releases, 4 database versions, ... \n\nHowever, the application is not finished yet and a first stable version won't be released until several months. This school project has started with 6 apprentices in IT in 2-3rd year. The project took place during 3 quarters (with 6 then 4 then 2 persons) in class and at home. Now the courses dedicated to this project are done, but the aventure continue with Samuel et Benoît!"
+	}
+}
