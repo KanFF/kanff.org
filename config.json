@@ -29,6 +29,11 @@
 				"id": "fr",
 				"language": "Français",
 				"version": "v1.0"
+			},
+			{
+				"id": "en",
+				"language": "English",
+				"version": "v1.0"
 			}
 		],
 		"php_script_to_load": [],
