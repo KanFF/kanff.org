@@ -26,6 +26,7 @@ $defaultlanguage = $config['content']['default_language'];
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Page d'accueil de KanFF - Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.">
     <title><?= $title; ?> - <?= $kanff['definition'] ?></title>
 
     <?php
