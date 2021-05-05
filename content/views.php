@@ -151,13 +151,13 @@ function printContributor($contributor, $nbContributors, $index)
 {
 	$big = $contributor['major'];
 ?>
-	<a target="_blank" title="<?= $big ? '' : $contributor['name'] ?>" href="<?= 'https://github.com/' . $contributor['username'] ?>" class="hover:text-black block bg-yellow-200 border-solid border-yellow-400 border hover:bg-yellow-300 p-1 <?= $index != $nbContributors ? 'mr-2' : '' ?>  rounded-md <?= $big ? 'h-40 w-40' : 'h-12 w-12' ?>  text-center">
+	<a target="_blank" title="<?= $big ? '' : $contributor['name'] ?>" href="<?= 'https://github.com/' . $contributor['username'] ?>" class="hover:text-black block bg-yellow-200 border-solid border-yellow-400 border hover:bg-yellow-300 overflow-hidden p-1 <?= $index != $nbContributors ? 'mr-2' : '' ?>  rounded-md <?= $big ? 'h-40 w-40' : 'h-12 w-12' ?>  text-center">
 		<div class="">
 			<span class="<?= $big ? 'text-sm' : 'hidden' ?> mb-2"><?= $contributor['name'] ?>
 				<br>@<?= $contributor['username'] ?>
 			</span>
 			<div class="w-full <?= $big ? '' : 'h-full' ?>  flex justify-center items-center">
-				<img src="<?= $contributor['img'] ?>" alt="profil icon of <?= $contributor['username'] ?>" class="rounded-full <?= $big ? 'h-24' : '' ?>" style="border-radius: 9999px;">
+				<img src="<?= $contributor['img'] ?>" alt="profil <?= $contributor['username'] ?>" class="rounded-full text-xs <?= $big ? 'h-24' : '' ?>" style="border-radius: 9999px;">
 			</div>
 		</div>
 	</a>
