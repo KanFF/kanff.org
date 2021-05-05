@@ -89,12 +89,18 @@ function buildAnAdvantage($advantage, $textAtLeft)
 			</div>
 		</div>
 		<div class="lg:mx-3 md:mx-2 mx-1 mt-2" style="flex: 4;">
-			<div class="w-full flex justify-end sm:text-sm text-xs">
-				<div class=" px-2 italic bg-opacity-95 rounded-md rounded-b-none bg-yellow-200 w-fully w-max md:text-right text-center">
-				<?= $advantage['caption'] ?>
-				</div>
-			</div>
-			<img src="imgs/<?= $advantage['img'] ?>" class="border-none sm:rounded-md rounded-sm sm:rounded-b-none shadow-2xl" alt="Advantage '<?= $advantage['name'] ?>'" style="">
+			<?php
+			if (isset($advantage['caption'])) {
+				if ($advantage['caption'] != '') { ?>
+					<div class="w-full flex <?= $textAtLeft ? 'justify-end' : 'justify-start' ?> text-sm">
+						<div class="py-1 shadow-md px-2 italic bg-opacity-95 rounded-md rounded-b-none bg-gray-100 border border-blue-300 border-b-0 w-fully w-max <?= $textAtLeft ? 'md:text-right' : 'md:text-left x' ?>  text-center">
+							<?= $advantage['caption'] ?>
+						</div>
+					</div>
+			<?php }
+			}
+			?>
+			<img src="imgs/<?= $advantage['img'] ?>" class="border-none sm:rounded-md rounded-sm sm:rounded-b-none <?= $textAtLeft ? 'sm:rounded-tr-none' : 'sm:rounded-tl-none' ?>  shadow-2xl" alt="Advantage '<?= $advantage['name'] ?>'" style="">
 
 		</div>
 	</div>
