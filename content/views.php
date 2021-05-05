@@ -89,7 +89,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 			</div>
 		</div>
 		<div class="lg:mx-3 md:mx-2 mx-1 mt-2" style="flex: 4;">
-			<img src="imgs/<?= $advantage['img'] ?>" class="border-none sm:rounded-md rounded-sm  rounded-b-none shadow-2xl" alt="Image for advantage '<?= $advantage['name'] ?>'" style="">
+			<img src="imgs/<?= $advantage['img'] ?>" class="border-none sm:rounded-md rounded-sm sm:rounded-b-none shadow-2xl" alt="Advantage '<?= $advantage['name'] ?>'" style="">
 		</div>
 	</div>
 
