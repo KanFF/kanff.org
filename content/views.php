@@ -89,7 +89,12 @@ function buildAnAdvantage($advantage, $textAtLeft)
 			</div>
 		</div>
 		<div class="lg:mx-3 md:mx-2 mx-1 mt-2" style="flex: 4;">
+			<div class="w-full flex justify-end sm:text-sm text-xs">
+				<div class=" px-2 italic bg-opacity-95 rounded-md rounded-b-none bg-yellow-200 w-fully w-max md:text-right text-center">Un exemple fictif du kanban d'un projet de Crowdfunding fait par le "Collectif Assoc Vaud".
+				</div>
+			</div>
 			<img src="imgs/<?= $advantage['img'] ?>" class="border-none sm:rounded-md rounded-sm sm:rounded-b-none shadow-2xl" alt="Advantage '<?= $advantage['name'] ?>'" style="">
+
 		</div>
 	</div>
 
