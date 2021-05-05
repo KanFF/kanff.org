@@ -14,30 +14,35 @@
 		{
 			"name": "Kanban",
 			"description": "The kanban board is a very visual task management system that can have multiples forms. In KanFF, there are 3 columns because tasks have only 2 possible states: To do, In progress or Done. Tasks are moved from left to right, from column to another.",
+			"caption": "Fictive example of the kanban of a Crowdfunding project.",
 			"img": "kanban.png",
 			"mode": 2
 		},
 		{
 			"name": "Projects segmentation",
 			"description": "When we carry out large-scale projects that last several months or even years, there are many tasks to manage. That's why in KanFF tasks are not only linked to a project but to a part of a project (called works). \n\nOnly works in progress, on break or done are displayed in the kanban. The done ones are reducted.",
+			"caption": "",
 			"img": "works.png",
 			"mode": 1
 		},
 		{
 			"name": "Global vision",
 			"description": "By default, everything that happens in different projects is visible for the whole collective. That permits to have a global vision of what concretely happens in the collective and on the progress of projects. \nIntegration of new persons within existing projects is easier too because the project history is conserved (old works and the logbook), and participants, deadlines and tasks to do, are readable. ",
+			"caption": "",
 			"img": "globalview.png",
 			"mode": 1
 		},
 		{
 			"name": "Integrated manual",
 			"description": "If you don't feel comfortable with computers, know that you will learn little by little to use it. The integrated manual is available and contains some screenshots and some concrete examples. \n\n It is quickly accessible on each page through a simple button. It is evolving and enhanced from time to time.",
+			"caption": "",
 			"img": "manual.png",
 			"mode": 1
 		},
 		{
 			"name": "Opensource and self-hosting",
 			"description": "The source code is open (and available <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>on GitHub</a>. So it's possible to self-host and instance and to have full control over your data. \n\nThis transparency makes it possible to inspect the database, the code, the algorithms and to verify that the documentation is not malicious. KanFF does not have a free license yet, but it will come soon.",
+			"caption": "",
 			"img": "code.png",
 			"mode": 1
 		}
