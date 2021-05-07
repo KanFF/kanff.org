@@ -35,15 +35,15 @@
 		},
 		{
 			"name": "Mode d'emploi intégré",
-			"description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que vous apprendrez petit à petit à l'utiliser. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
-			"caption": "Extrait du mode d'emploi (première version brouillon du texte).",
+			"description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que vous apprendrez petit à petit à utiliser KanFF. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
+			"caption": "Extrait du mode d'emploi (en cours de rédaction).",
 			"img": "manual.png",
 			"mode": 1
 		},
 		{
 			"name": "Opensource et auto-hébergement",
 			"description": "Le code source est ouvert (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données. \n\nCette transparence permet aussi d'inspecter la base de données, le code, les algorithmes et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de licence libre mais cela arrivera bientôt.",
-			"caption": "Extrait d'un bout de code permettant d'afficher la page Projets (on peut repérer notamment différentes options et descriptions).",
+			"caption": "Extrait d'un bout de code affichant la page Projets.",
 			"img": "code.png",
 			"mode": 1
 		}
