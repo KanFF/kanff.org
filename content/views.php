@@ -32,10 +32,13 @@ function getBanner($kanff)
 						Pas de version utilisable. Développement en cours.
 					</span>
 				</div>
+				<div class="mx-4 mt-2 text-center text-xs mb-1">
+					<?= MDToHTML($kanff['pronunciation']) ?>
+				</div>
 			</div>
 		</div>
 		<div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
-			<img src="imgs/preview.png" style="dmax-height: 30vh; margin-right: -2px" class="border-none shadow-xl ml-2 " alt="">
+			<img src="imgs/preview.png" style="margin-right: -2px" class="border-none shadow-xl ml-2 " alt="">
 		</div>
 	</div>
 <?php
