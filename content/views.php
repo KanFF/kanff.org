@@ -96,7 +96,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 			if (isset($advantage['caption'])) {
 				if ($advantage['caption'] != '') { ?>
 					<div class="w-full flex <?= $textAtLeft ? 'justify-end' : 'justify-start' ?> text-sm">
-						<div class="py-1 shadow-md px-2 italic bg-opacity-95 rounded-md rounded-b-none bg-gray-100 border border-blue-300 border-b-0 w-fully w-max <?= $textAtLeft ? 'md:text-right' : 'md:text-left x' ?>  text-center">
+						<div class="py-1 shadow-md px-2 italic rounded-md rounded-b-none bg-gray-200 border border-gray-300 border-b-0 w-fully w-max <?= $textAtLeft ? 'md:text-right' : 'md:text-left x' ?>  text-center">
 							<?= $advantage['caption'] ?>
 						</div>
 					</div>
