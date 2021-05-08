@@ -87,7 +87,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 							default:
 								echo 'm-auto';
 						} ?>">
-				<d2 class="text-2xl mb-2"><?= $advantage['name'] ?></d2>
+				<h2 class="text-2xl mb-2"><?= $advantage['name'] ?></h2>
 				<div class="md:text-base text-sm"><?= MDToHTML($advantage['description']) ?></div>
 			</div>
 		</div>
@@ -210,7 +210,7 @@ function getNewsLetterSection($news)
 						var pleaseEnter = "";
 					</script>
 					<script type="text/javascript">
-						var thanksForSubscribing = "<h3>Merci pour votre inscription !</h3><p>Vérifiez svp votre boîte mail et cliquez sur le lien de confirmation.</p>";
+						var thanksForSubscribing = "<h3 class='text-xl'>Merci pour votre inscription !</h3><p>Vérifiez svp votre boîte mail et cliquez sur le lien de confirmation.</p>";
 					</script>
 				</form>
 			</div>

@@ -26,9 +26,20 @@ $defaultlanguage = $config['content']['default_language'];
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Page d'accueil de KanFF - Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.">
-	<title><?= $title; ?> - <?= $kanff['definition'] ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations." />
+	<title><?= $title; ?></title>
+
+	<?php //Open Graph metadata. See https://ogp.me/ 
+	?>
+	<meta property="og:site_name" content="kanff.org" />
+	<meta property="og:title" content="KanFF" />
+	<meta property="og:url" content="https://kanff.org" />
+	<meta property="og:description" content="Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations." />
+	<meta property="og:image" content="https://kanff.org/imgs/kanff.org.png" />
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="834">
+	<meta property="og:image:height" content="403">
 
 	<?php
 	//<!-- CSS files -->
@@ -45,7 +56,7 @@ $defaultlanguage = $config['content']['default_language'];
 	//}
 	?>
 
-	<link rel="stylesheet" href="./node_modules/tailwindcss/dist/tailwind.min.css">
+	<link rel="stylesheet" href="node_modules/tailwindcss/dist/tailwind.min.css">
 	<?php
 	//<!--    <link rel="stylesheet" href="./css/kanff.css">
 	//<script src="main.js"></script>-->
