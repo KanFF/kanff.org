@@ -56,6 +56,8 @@ $defaultlanguage = $config['content']['default_language'];
 	//}
 	?>
 
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> -->
 	<link rel="stylesheet" href="node_modules/tailwindcss/dist/tailwind.min.css">
 	<?php
 	//<!--    <link rel="stylesheet" href="./css/kanff.css">
@@ -76,7 +78,7 @@ $defaultlanguage = $config['content']['default_language'];
 				<h1 class="max-w-max flex-1 text-center my-3"><?= $maintitle; ?></h1>
 			</div>
 		<?php } ?>
-		<span class="flex flex-wrap w-full border-blue-200 border-b border-solid">
+		<div class="flex flex-wrap w-full border-blue-200 border-b border-solid">
 			<div class="flex-1">
 				<span class=""><strong><?= $config['website-name'] ?></strong></span>
 				<span class="text-sm focus-within:cursor-help" title="<?= $versioninfo ?>"><?= $config['version'] ?></span>
@@ -95,11 +97,10 @@ $defaultlanguage = $config['content']['default_language'];
 				<strong class=""><?= $config['author'] ?></strong>
 				<a target="_blank" href="https://github.com/samuelroland/KanFF"><img src="imgs/github.png" class=" border-none h-5 ml-2" alt=""></a>
 			</div>
-		</span>
+		</div>
 	</div>
 
-
-	<div class="">
+	<div>
 		<?= $content ?>
 	</div>
 

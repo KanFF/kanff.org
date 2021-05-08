@@ -199,17 +199,15 @@ function getNewsLetterSection($news)
 			</div>
 			<span class="text-sm text-gray-400"><?= $news['newsletter-subscription'] ?></span>
 			<div>
-				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-				<script type="text/javascript" src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+				<script src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>
 
 				<div id="phplistsubscriberesult" class="text-green-600"></div>
 				<form action="https://kanffnews.hosted.phplist.com/lists/?p=subscribe&id=1" method="post" id="phplistsubscribeform">
 					<input type="text" name="email" value="" id="emailaddress" class="w-full p-1 outline-none focus:bg-gray-200 rounded-sm text-black md:text-base text-sm" placeholder="email@example.com" /><br>
 					<button type="submit" id="phplistsubscribe" class="bg-gray-300 hover:bg-blue-300 px-3 py-1 rounded-sm mt-2">S'inscrire</button>
-					<script type="text/javascript">
+					<script>
 						var pleaseEnter = "";
-					</script>
-					<script type="text/javascript">
 						var thanksForSubscribing = "<h3 class='text-xl'>Merci pour votre inscription !</h3><p>Vérifiez svp votre boîte mail et cliquez sur le lien de confirmation.</p>";
 					</script>
 				</form>

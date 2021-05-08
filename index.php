@@ -30,7 +30,10 @@ if ($rawMDContent != false) {
 	$content = getRawMDForAGivenLanguage($language);
 	$maintitle = extractMainTitleInRawMDContent($config, $content);
 	$content = removeTheMainTitleInRawMDContent($content);
-	$content = lauchOperationsOnContent($content);  //raw MD will be transformed to HTML
+	//Interpret markdown content only if $content contains for Markdown (to avoid global <p></p>)
+	if ($config['content']['no-markdown-in-content'] != true) {
+		$content = lauchOperationsOnContent($content);  //raw MD will be transformed to HTML
+	}
 	require_once "gabarit.php"; //get the layout and include the content inside
 } else {
 	$maintitle = "Erreur...";

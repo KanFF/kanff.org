@@ -18,6 +18,7 @@
 		"command-to-start-on-update-request": "git pull"
 	},
 	"content": {
+		"no-markdown-in-content": true,
 		"titles": {
 			"copy-anchor-button": true,
 			"go-to-anchor-when-copy-anchor": false
