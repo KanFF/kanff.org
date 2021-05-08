@@ -118,7 +118,7 @@ function getAboutSection($about, $contributors)
 	ob_start();
 ?>
 	<div class=" bg-gray-100 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
-		<div class="">
+		<div class="w-full">
 			<div>
 				<h2 class="text-2xl"><?= SECTIONS['about'] ?></h2>
 				<div class="flex-1 mr-6 mt-2  md:text-base text-sm">
@@ -126,12 +126,12 @@ function getAboutSection($about, $contributors)
 				</div>
 			</div>
 			<hr class="border-blue-300 my-2">
-			<div class="flex">
-				<div>
+			<div class="flex w-full">
+				<div class="w-full">
 					<h3 class="text-xl mb-2 mt-1"><?= SECTIONS['contributors'] ?></h3>
-					<div class="lg:flex block">
+					<div class="lg:flex block w-full">
 						<div class="mr-2">
-							<div class="flex">
+							<div class="flex w-full">
 								<?php
 								$index = 1;
 								foreach ($contributors as $contributor) {
@@ -150,7 +150,7 @@ function getAboutSection($about, $contributors)
 								?>
 							</div>
 						</div>
-						<div class="mt-2 lg:mt-0 md:text-base text-sm"><?= MDToHTML($about['text']) ?></div>
+						<div class="mt-2 lg:mt-0 md:text-base text-sm w-full"><?= MDToHTML($about['text']) ?></div>
 					</div>
 				</div>
 
@@ -166,12 +166,12 @@ function printContributor($contributor, $nbContributors, $index)
 {
 	$big = $contributor['major'];
 ?>
-	<a target="_blank" title="<?= $big ? '' : $contributor['name'] ?>" href="<?= 'https://github.com/' . $contributor['username'] ?>" class="hover:text-black block border-solid border-gray-300 border hover:border-yellow-400 hover:bg-yellow-200 overflow-hidden p-1 <?= $index != $nbContributors ? 'mr-2' : '' ?>  rounded-md <?= $big ? 'h-36 w-40' : 'h-12 w-12' ?>  text-center">
+	<a target="_blank" title="<?= $big ? '' : $contributor['name'] ?>" href="<?= 'https://github.com/' . $contributor['username'] ?>" class="hover:text-black block border-solid border-gray-300 border hover:border-yellow-400 hover:bg-yellow-200 overflow-hidden p-1 <?= $index != $nbContributors ? 'mr-2' : '' ?>  rounded-md <?= $big ? 'h-36 w-44' : 'h-12 w-12' ?>  text-center">
 		<div class="h-full flex flex-col">
-			<span class="<?= $big ? 'text-sm' : 'hidden' ?> mb-2"><?= $contributor['name'] ?>
+			<span class="<?= $big ? 'text-sm' : 'hidden' ?> my-1"><?= $contributor['name'] ?>
 			</span>
-			<div class="w-full <?= $big ? '' : 'h-full' ?>  flex justify-center items-center">
-				<img src="<?= $contributor['img'] ?>" alt="profil <?= $contributor['username'] ?>" class="rounded-full text-xs <?= $big ? 'h-24' : '' ?>" style="border-radius: 9999px;">
+			<div class="w-full h-full <?= $big ? '' : 'h-full' ?>  flex justify-center items-center">
+				<img src="<?= $contributor['img'] ?>" alt="profil <?= $contributor['username'] ?>" class="rounded-full text-xs <?= $big ? 'h-20' : '' ?>" style="border-radius: 9999px;">
 			</div>
 		</div>
 	</a>
@@ -211,7 +211,7 @@ function getNewsLetterSection($news)
 					<script>
 						var waitImage = "js/busy.gif";
 						var pleaseEnter = "";
-						var thanksForSubscribing = "<h3 class='text-xl'><?= $news['subscription-response-title'] ?></h3><p><?= $news['subscription-response-text'] ?></p>";
+						var thanksForSubscribing = "<h3 class='text-xl'><?= $news['subscription-response-title'] ?></h3><p class='md:text-base text-sm'><?= $news['subscription-response-text'] ?></p>";
 					</script>
 				</form>
 			</div>
