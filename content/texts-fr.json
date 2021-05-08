@@ -14,7 +14,7 @@
 		"pronunciation": "KanFF se prononce `kanεfεf` (comme `cannaifaif`).",
 		"wip-tag": "En cours de développement."
 	},
-	"problems": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatiguante et demande trop de travail ? ",
+	"problems": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatigante et demande trop de travail ? ",
 	"advantages": [
 		{
 			"name": "Kanban",
@@ -72,6 +72,6 @@
 		"text": "La première année de cet ambitieux projet inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, même après tout ce travail l'application n'est pas encore terminée** et il faudra encore plusieurs mois de réflexions, de développement, de tests, de corrections, de design, ... avant qu'une première version stable et utilisable soit publiée. \n\n Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
 	},
 	"footer": {
-		"notes": "Ce site est mise à jour régulièrement. Si vous avez vu des erreurs ou voulez suggérer des améliorations, merci de nous contacter par email à 'kanff at pm.me'."
+		"notes": "Ce site est mise à jour régulièrement. Si vous avez vu des erreurs ou voulez suggérer des améliorations, merci de nous contacter par email à <abbr title='Remplacez le \"at\" par @ et enlevez les espaces.'>'kanff at pm.me'</abbr>."
 	}
 }
