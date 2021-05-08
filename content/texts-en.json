@@ -63,7 +63,9 @@
 			}
 		],
 		"follow-social-networks": "Follow us on social networks:",
-		"newsletter-subscription": "Or subscribe to the newsletter"
+		"newsletter-subscription": "Or subscribe to the newsletter",
+		"subscription-response-title": "Thanks for you interest ! You are almost there...",
+		"subscription-response-text": "All that remains is to <strong>confirm your subscription</strong> via a link in the email sent to you. (Also check your spam folder)."
 	},
 	"about": {
 		"intro": "KanFF is not only an application. It's a big project that is now 1 year old (started the 26.04.2020)",

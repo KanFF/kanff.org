@@ -63,7 +63,9 @@
 			}
 		],
 		"follow-social-networks": "Suivez-nous sur les réseaux sociaux:",
-		"newsletter-subscription": "Et inscrivez-vous à la lettre d'information"
+		"newsletter-subscription": "Et inscrivez-vous à la lettre d'information",
+		"subscription-response-title": "Merci pour votre interêt !",
+		"subscription-response-text": "Il ne reste plus qu'à <strong>confirmer votre inscription</strong> via un lien dans le mail qui vous a été envoyé. (Vérifiez aussi vos Indésirables)."
 	},
 	"about": {
 		"intro": "KanFF ce n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! ",

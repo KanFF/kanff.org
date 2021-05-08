@@ -212,7 +212,7 @@ function getNewsLetterSection($news)
 					<script>
 						var waitImage = "js/busy.gif";
 						var pleaseEnter = "";
-						var thanksForSubscribing = "<h3 class='text-xl'>Merci pour votre inscription !</h3><p>Vérifiez svp votre boîte mail et cliquez sur le lien de confirmation.</p>";
+						var thanksForSubscribing = "<h3 class='text-xl'><?= $news['subscription-response-title'] ?></h3><p><?= $news['subscription-response-text'] ?></p>";
 					</script>
 				</form>
 			</div>
