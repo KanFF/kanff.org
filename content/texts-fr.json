@@ -1,7 +1,7 @@
 {
 	"SECTIONS": {
 		"about": "A propos",
-		"newsletter": "Lettre d'information",
+		"newsletter": "Lettre d'information et contributions",
 		"contributors": "Contributeur·ices"
 	},
 	"header": {
@@ -33,7 +33,7 @@
 		{
 			"name": "Vision d'ensemble",
 			"description": "Par défaut, tout ce qui se passe dans les divers projets est visible par tout le collectif. Cela permet d'avoir une vision d'ensemble du travail qui se passe dans le collectif et de l'avancement des projets.\n L'intégration de nouvelles personnes dans des projets existants est aussi plus simple puisque l'historique du projet est conservé (anciens travaux et journal de bord), et les participant·es, les échéances ainsi que les tâches à faire, sont consultables.",
-			"caption": "Exemple d'une partie des détails d'un projets avec les groupes participants ainsi qu'un journal de bord.",
+			"caption": "Exemple d'une partie des détails d'un projet avec les groupes participants ainsi qu'un journal de bord.",
 			"img": "globalview.png",
 			"mode": 1
 		},
@@ -53,7 +53,7 @@
 		}
 	],
 	"news": {
-		"text": "**Vous souhaitez suivre l'avancement du projet?** Être averti·e des nouveautés, des publications et des futurs articles? Peut-être contribuer à KanFF en rapportant des bugs, en faisant des retours, en écrivant du code ou de la documentation? \n\n **Il y a de nombreuses manières de nous aider** (techniques et non techniques), cependant nous réfléchissons encore à la meilleure manière de gérer les contributions, à installer une instance de tests, et d'avoir un moyen de faire des retours, ...\n\n**Inscrivez-vous à la lettre d'information** pour ne rien louper et suivez-nous sur les réseaux sociaux alternatifs.",
+		"text": "**Vous souhaitez suivre l'avancement du projet et être averti·e de la sortie de la V1 ?** Être au courant des nouveautés, des publications et des futurs articles? **Inscrivez-vous à la lettre d'information** pour ne rien louper ou suivez-nous sur les réseaux sociaux alternatifs.\n\n<br>**Vous souhaitez contribuer à ce projet ?** Il y a de nombreuses manières de nous aider: en rapportant des bugs, en faisant des retours, en écrivant du code ou de la documentation? \n\n Pour le moment, nous réfléchissons encore à la meilleure manière de gérer les contributions et d'avoir un moyen de faire des retours, ... \n\nNous aurons besoin d'aide et d'idées dans un futur proche, donc si cela vous intéresse, inscrivez-vous pour rester au courant de l'actualité du projet.",
 		"links": [
 			{
 				"name": "Telegram",
@@ -69,7 +69,7 @@
 	},
 	"about": {
 		"intro": "KanFF ce n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! Ce projet scolaire a commencé avec 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) en classe et à la maison.",
-		"text": "La première année de cet ambitieux projet inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, l'application n'est pas encore terminée** et il faudra encore plusieurs mois avant qu'une première version stable soit publiée. \n\n Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
+		"text": "La première année de cet ambitieux projet inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, même après tout ce travail l'application n'est pas encore terminée** et il faudra encore plusieurs mois de réflexions, de développement, de tests, de corrections, de design, ... avant qu'une première version stable et utilisable soit publiée. \n\n Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
 	},
 	"footer": {
 		"notes": "Ce site est mise à jour régulièrement. Si vous avez vu des erreurs ou voulez suggérer des améliorations, merci de nous contacter par email à 'kanff at pm.me'."
