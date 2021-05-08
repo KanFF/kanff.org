@@ -11,7 +11,7 @@
 		"slogan": "À faire, en cours, terminé. Suivant!",
 		"definition": "Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.",
 		"explanation": "Bénéficier de la puissance visuel et intuitive du kanban pour gérer les tâches de plusieurs projets efficacement et collectivement.",
-		"pronunciation": "`KanFF` se prononce `kanεfεf` (comme `cannaifaif`).",
+		"pronunciation": "KanFF se prononce `kanεfεf` (comme `cannaifaif`).",
 		"wip-tag": "En cours de développement."
 	},
 	"problems": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatiguante et demande trop de travail ? ",
@@ -62,7 +62,8 @@
 				"lang": "fr"
 			}
 		],
-		"newsletter-subscription": "Inscription à la lettre d'information"
+		"follow-social-networks": "Suivez-nous sur les réseaux sociaux:",
+		"newsletter-subscription": "Et inscrivez-vous à la lettre d'information"
 	},
 	"about": {
 		"intro": "KanFF ce n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! ",

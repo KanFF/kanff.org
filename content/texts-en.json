@@ -62,7 +62,8 @@
 				"lang": "en"
 			}
 		],
-		"newsletter-subscription": "Newsletter subscription"
+		"follow-social-networks": "Follow us on social networks:",
+		"newsletter-subscription": "Or subscribe to the newsletter"
 	},
 	"about": {
 		"intro": "KanFF is not only an application. It's a big project that is now 1 year old (started the 26.04.2020)",

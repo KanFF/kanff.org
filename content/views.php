@@ -32,7 +32,7 @@ function getBanner($kanff)
 						<?= $kanff['wip-tag'] ?>
 					</span>
 				</div>
-				<div class="mx-4 mt-2 text-center text-xs mb-1">
+				<div class="mx-4 mt-2 text-center text-sm mb-1">
 					<?= MDToHTML($kanff['pronunciation']) ?>
 				</div>
 			</div>
@@ -186,16 +186,19 @@ function getNewsLetterSection($news)
 ?>
 	<div class="bg-gray-100 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center md:mb-6 mb-3">
 		<div style="flex: 4">
-			<h2 class="text-2xl"><?= SECTIONS['newsletter'] ?></h2>
+			<h2 class="text-2xl mb-2"><?= SECTIONS['newsletter'] ?></h2>
 			<div class=" md:text-base text-sm">
 				<?= MDToHTML($news['text']) ?>
 			</div>
 		</div>
 		<div style="flex: 3" class="lg:pl-4">
-			<div class="flex justify-center items-center">
-				<?php foreach ($news['links'] as $link) { ?>
-					<div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
-				<?php } ?>
+			<div class="flex items-center">
+				<span class="text-sm text-gray-400 mr-3"><?= $news['follow-social-networks'] ?></span>
+				<div class="flex justify-center items-center">
+					<?php foreach ($news['links'] as $link) { ?>
+						<div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
+					<?php } ?>
+				</div>
 			</div>
 			<span class="text-sm text-gray-400"><?= $news['newsletter-subscription'] ?></span>
 			<div>
