@@ -29,7 +29,7 @@ function getBanner($kanff)
 						1220 commits
 					</span>
 					<span class="ml-1 mt-2 border px-1 bg-gray-100 rounded-sm border-gray-300 text-sm">
-						Pas de version utilisable. Développement en cours.
+						<?= $kanff['wip-tag'] ?>
 					</span>
 				</div>
 				<div class="mx-4 mt-2 text-center text-xs mb-1">
@@ -197,7 +197,7 @@ function getNewsLetterSection($news)
 					<div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
 				<?php } ?>
 			</div>
-			<span class="text-sm text-gray-400">Inscription à la lettre d'information</span>
+			<span class="text-sm text-gray-400"><?= $news['newsletter-subscription'] ?></span>
 			<div>
 				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 				<script type="text/javascript" src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>

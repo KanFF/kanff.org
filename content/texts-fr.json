@@ -4,11 +4,15 @@
 		"newsletter": "Lettre d'information",
 		"contributors": "Contributeur·ices"
 	},
+	"header": {
+		"published-at": " de kanff.org publiée le "
+	},
 	"kanff": {
 		"slogan": "À faire, en cours, terminé. Suivant!",
 		"definition": "Une application web opensource de gestion de projets à l'aide de kanbans, pour les groupes, collectifs et associations.",
 		"explanation": "Bénéficier de la puissance visuel et intuitive du kanban pour gérer les tâches de plusieurs projets efficacement et collectivement.",
-		"pronunciation": "`KanFF` se prononce `kanεfεf` (comme `cannaifaif`)."
+		"pronunciation": "`KanFF` se prononce `kanεfεf` (comme `cannaifaif`).",
+		"wip-tag": "En cours de développement."
 	},
 	"problems": "Vous galèrez à faire participer tout le monde dans vos projets ? Les informations sont éparpillées et se perdent ? La communication interne est fatiguante et demande trop de travail ? ",
 	"advantages": [
@@ -57,13 +61,14 @@
 				"link": "https://t.me/KanFFNewsFR",
 				"lang": "fr"
 			}
-		]
+		],
+		"newsletter-subscription": "Inscription à la lettre d'information"
 	},
 	"about": {
 		"intro": "KanFF ce n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! ",
 		"text": "**Pour avoir un rapide aperçu**, ce projet scolaire a commencé avec 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) en classe et à la maison. \n\nCette année inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, l'application n'est pas encore terminée** et il faudra encore plusieurs mois avant qu'une première version stable soit publiée. \n\n Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
 	},
 	"footer": {
-		"notes": "Ce site est mise à jour régulièrement. Si vous avez vu des erreurs ou voulez suggérer des modifications, merci de nous contacter par email à 'kanff at pm.me'."
+		"notes": "Ce site est mise à jour régulièrement. Si vous avez vu des erreurs ou voulez suggérer des améliorations, merci de nous contacter par email à 'kanff at pm.me'."
 	}
 }

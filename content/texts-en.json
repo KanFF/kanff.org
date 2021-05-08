@@ -4,11 +4,15 @@
 		"newsletter": "Newsletter",
 		"contributors": "Contributors"
 	},
+	"header": {
+		"published-at": " of kanff.org published on "
+	},
 	"kanff": {
 		"slogan": "To do, in progress, done. Next!",
 		"definition": "An opensource web application to manage projects with kanban boards, for groups, collectives and associations.",
 		"explanation": "Benefit from the visual and intuitive power of the kanban board to manage tasks on several projects efficiently and collectively.",
-		"pronunciation": "`KanFF` is pronounced `kanεfεf` (like `kanefef`)."
+		"pronunciation": "`KanFF` is pronounced `kanεfεf` (like `kanefef`).",
+		"wip-tag": "Development in progress."
 	},
 	"problems": "??",
 	"advantages": [
@@ -57,13 +61,14 @@
 				"link": "https://t.me/KanFFNews",
 				"lang": "en"
 			}
-		]
+		],
+		"newsletter-subscription": "Newsletter subscription"
 	},
 	"about": {
 		"intro": "KanFF is not only an application. It's a big project that is now 1 year old (started the 26.04.2020)",
 		"text": "To have a quick preview, this year includes 10 months of work on free time, more than 600 jours cumulated of work, 10 beta releases, 4 database versions, ... \n\nHowever, the application is not finished yet and a first stable version won't be released until several months. This school project has started with 6 apprentices in IT in the 2-3rd year. The project took place during 3 quarters (with 6 then 4 then 2 persons) in class and at home. Now the courses dedicated to this project are done, but the adventure continues with Samuel et Benoît!"
 	},
 	"footer": {
-		"notes": "This website is updated regularly. If you have seen any errors or want to suggest modifications, please contact us by email at 'kanff at pm.me'."
+		"notes": "This website is updated regularly. If you have seen any errors or want to suggest some enhancements, please contact us by email at 'kanff at pm.me'."
 	}
 }
