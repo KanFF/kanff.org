@@ -64,12 +64,12 @@
 		],
 		"follow-social-networks": "Suivez-nous sur les réseaux sociaux:",
 		"newsletter-subscription": "Et inscrivez-vous à la lettre d'information",
-		"subscription-response-title": "Merci pour votre interêt !",
-		"subscription-response-text": "Il ne reste plus qu'à <strong>confirmer votre inscription</strong> via un lien dans le mail qui vous a été envoyé. (Vérifiez aussi vos Indésirables)."
+		"subscription-response-title": "Merci pour votre intérêt !",
+		"subscription-response-text": "Il ne reste plus qu'à <strong>confirmer votre inscription</strong> via un lien dans le mail qui vous a été envoyé. (Vérifiez aussi vos indésirables)."
 	},
 	"about": {
-		"intro": "KanFF ce n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! ",
-		"text": "**Pour avoir un rapide aperçu**, ce projet scolaire a commencé avec 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) en classe et à la maison. \n\nCette année inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, l'application n'est pas encore terminée** et il faudra encore plusieurs mois avant qu'une première version stable soit publiée. \n\n Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
+		"intro": "KanFF ce n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! Ce projet scolaire a commencé avec 6 apprentis en informatique en 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) en classe et à la maison.",
+		"text": "La première année de cet ambitieux projet inclut **10 mois de travail** sur du temps libre, plus de **600 heures** cumulées de travail, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, l'application n'est pas encore terminée** et il faudra encore plusieurs mois avant qu'une première version stable soit publiée. \n\n Maintenant, les cours consacrés au projet sont finis, mais Samuel et Benoît continuent le projet!"
 	},
 	"footer": {
 		"notes": "Ce site est mise à jour régulièrement. Si vous avez vu des erreurs ou voulez suggérer des améliorations, merci de nous contacter par email à 'kanff at pm.me'."
