@@ -15,6 +15,7 @@ if ($config['content']['additionnal-values'] != null) {
 if (empty($values) == false) {
 	$content = interpolateValuesInContent($content, $values);
 }
+$versioninfo = "Version " . $config['version'] . $data['header']['published-at'] . $config['versiondate'] . ".";
 
 $title = $config['title'];
 $defaultlanguage = $config['content']['default_language'];
@@ -67,7 +68,7 @@ $defaultlanguage = $config['content']['default_language'];
 		<span class="flex flex-wrap w-full border-blue-200 border-b border-solid">
 			<div class="flex-1">
 				<span class=""><strong><?= $config['website-name'] ?></strong></span>
-				<span class="text-sm focus-within:cursor-help" title="Version <?= $config['version'] ?> de kanff.org publiée le <?= $config['versiondate'] ?>."><?= $config['version'] ?></span>
+				<span class="text-sm focus-within:cursor-help" title="<?= $versioninfo ?>"><?= $config['version'] ?></span>
 				<?php if ($config['content']['hide-select-if-one-language-only'] != true) { ?>
 					<select name="language" id="sltLanguage" required class="rounded-sm px-1">
 						<?php
