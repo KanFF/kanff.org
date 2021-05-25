@@ -6,8 +6,8 @@ function getBanner($kanff)
 	ob_start();
 ?>
 	<!-- <div><img src="imgs/banner-test.png" class="w-full rounded-none" alt=""></div> -->
-	<div class="w-auto py-4 xl:py-2 md:my-12 my-6 xl:flex xs:block shadow-xl overflow-hidden rounded-sm border-solid border border-gray-300">
-		<div class="flex-1 flex items-center pl-2 ">
+	<div class="sm:mx-0 mx-2 w-auto py-4 xl:py-2 md:my-12 my-6 xl:flex xs:block shadow-xl overflow-hidden rounded-sm border-solid border border-gray-300">
+		<div class="flex-1 flex items-center px-2 ">
 			<div class="w-full">
 				<img src="imgs/logo.svg" alt="" class="w-full h-24 border-none mb-3">
 				<div class=" mx-4">
@@ -20,7 +20,7 @@ function getBanner($kanff)
 					<?= $kanff['explanation'] ?>
 				</div>
 				<div class="mx-4 text-center text-sm mb-1 flex justify-center flex-wrap">
-					<a href="https://github.com/samuelroland/KanFF/stargazers" class="border  mt-2  px-1 bg-gray-100 hover:bg-gray-200 rounded-sm border-gray-300 flex items-center" target="_blank">
+					<a href="https://github.com/samuelroland/KanFF/stargazers" class="border mt-2 px-1 bg-gray-100 hover:bg-gray-200 rounded-sm border-gray-300 flex items-center" target="_blank">
 						<span class="flex items-center text-sm">
 							<img class="inline h-4 mr-1" src="imgs/star.png" alt=""><strong>8</strong>
 						</span>
@@ -38,7 +38,7 @@ function getBanner($kanff)
 			</div>
 		</div>
 		<div class="items-center justify-center xs:w-full xl:justify-end py-2 xl:flex hidden">
-			<img src="imgs/preview.png" style="margin-right: -2px" class="border-none shadow-xl ml-2 " alt="">
+			<img src="imgs/preview.png" style="margin-right: -2px" class="border-none shadow-xl " alt="">
 		</div>
 	</div>
 <?php
@@ -65,7 +65,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 {
 	ob_start();
 ?>
-	<div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-xl rounded-sm md:mb-8 mb-4 border-blue-300 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
+	<div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-xl sm:rounded-sm md:mb-8 mb-4 border-blue-300 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
     <?php switch ($advantage['mode']) {
 		case 2:
 			echo 'block';
@@ -96,7 +96,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 			if (isset($advantage['caption'])) {
 				if ($advantage['caption'] != '') { ?>
 					<div class="w-full flex <?= $textAtLeft ? 'justify-end' : 'justify-start' ?> text-sm">
-						<div class="py-1 shadow-md px-2 italic rounded-md rounded-b-none bg-gray-200 border border-gray-300 border-b-0 w-fully w-max <?= $textAtLeft ? 'md:text-right' : 'md:text-left x' ?>  text-center">
+						<div class="py-1 shadow-md px-2 italic rounded-md rounded-b-none bg-gray-200 border border-gray-300 border-b-0 w-fully w-max <?= $textAtLeft ? 'md:text-right' : 'md:text-left ' ?>  text-center sm:text-sm text-xs">
 							<?= $advantage['caption'] ?>
 						</div>
 					</div>
@@ -117,7 +117,7 @@ function getAboutSection($about, $contributors)
 {
 	ob_start();
 ?>
-	<div class=" bg-gray-100 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
+	<div class=" bg-gray-100 border-blue-300 border sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
 		<div class="w-full">
 			<div>
 				<h2 class="text-2xl"><?= SECTIONS['about'] ?></h2>
@@ -183,7 +183,7 @@ function getNewsLetterSection($news)
 {
 	ob_start();
 ?>
-	<div class="bg-gray-100 border-blue-300 border rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center md:mb-6 mb-3">
+	<div class="bg-gray-100 border-blue-300 border sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center md:mb-6 mb-3">
 		<div style="flex: 4">
 			<h2 class="text-2xl mb-2"><?= SECTIONS['newsletter'] ?></h2>
 			<div class=" md:text-base text-sm">
@@ -191,7 +191,7 @@ function getNewsLetterSection($news)
 			</div>
 		</div>
 		<div style="flex: 3" class="lg:pl-4">
-			<div class="flex items-center">
+			<div class="sm:flex items-center">
 				<span class="text-sm text-gray-400 mr-3"><?= $news['follow-social-networks'] ?></span>
 				<div class="flex justify-center items-center">
 					<?php foreach ($news['links'] as $link) { ?>
@@ -225,7 +225,7 @@ function getFooter($footer)
 {
 	ob_start();
 ?>
-	<div class="w-full border px-1 bg-gray-100 rounded-sm border-gray-300 text-xs sm:text-sm">
+	<div class="w-full border px-1 bg-gray-100 sm:rounded-sm border-gray-300 text-xs sm:text-sm">
 		<?= $footer['notes'] ?>
 
 	</div>

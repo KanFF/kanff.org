@@ -65,21 +65,20 @@ $defaultlanguage = $config['content']['default_language'];
 	?>
 </head>
 
-<body class="px-2 md:px-2 lg:px-3" style="background-color: <?= $config['style']['body']['background-color'] ?>;
+<body class="px-0 m-auto sm:px-2 lg:px-3 my-2 sm:my-3" style="background-color: <?= $config['style']['body']['background-color'] ?>;
  color: <?= $config['style']['body']['font-color'] ?>;
  font-family: <?= $config['style']['font-list'] ?>;
  max-width: <?= $config['style']['body']['maxwidth'] ?>;
- margin: 20px auto;
  ">
 	<span class="underline hover:text-blue-500" hidden>test</span>
-	<div class="thinBlackBorderForTitle my-3">
+	<div class="sm:px-0 px-2 thinBlackBorderForTitle sm:mb-3 pt-2">
 		<?php if ($maintitle != null) { ?>
 			<div class="my-3 w-full">
 				<h1 class="max-w-max flex-1 text-center my-3"><?= $maintitle; ?></h1>
 			</div>
 		<?php } ?>
 		<div class="flex flex-wrap w-full border-blue-200 border-b border-solid">
-			<div class="flex-1">
+			<div class="flex-1 mr-2 min-w-max">
 				<span class=""><strong><?= $config['website-name'] ?></strong></span>
 				<span class="text-sm focus-within:cursor-help" title="<?= $versioninfo ?>"><?= $config['version'] ?></span>
 				<?php if ($config['content']['hide-select-if-one-language-only'] != true) { ?>
