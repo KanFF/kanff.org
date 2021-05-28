@@ -18,42 +18,42 @@
 	"advantages": [
 		{
 			"name": "Kanban",
-			"description": "Le kanban est un système de gestion de tâches très visuel qui peut prendre différentes formes. Dans KanFF, il y a 3 colonnes parce que les tâches ont 3 états possibles: À faire, En cours ou Terminé. Les tâches sont déplacées de gauche à droite, de colonne en colonne.",
+			"description": "Le kanban est un système de gestion de tâches très visuel qui peut prendre différentes formes. Dans KanFF, il y a 3 colonnes parce que les tâches ont **3 états possibles: À faire, En cours ou Terminé.** Les tâches sont déplacées de gauche à droite, de colonne en colonne.",
 			"caption": "Exemple fictif du kanban d'un projet de Crowdfunding",
 			"img": "kanban.png",
 			"mode": 2
 		},
 		{
 			"name": "Segmentation des projets",
-			"description": "Lorsqu'on réalise des projets de grande envergure qui durent plusieurs mois voire des années, il y a beaucoup de tâches à gérer. C'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet mais à une partie d'un projet (appelées les travaux).\n\nSeuls les travaux en cours, en pause et terminés sont affichés dans le kanban. Ceux qui sont terminés sont réduits.",
+			"description": "Lorsqu'on réalise des projets de grande envergure qui durent plusieurs mois voire des années, il y a beaucoup de tâches à gérer. C'est pourquoi dans KanFF les tâches ne sont pas simplement liées à un projet **mais à une partie d'un projet** (appelées les travaux).\n\nSeuls les travaux en cours, en pause et terminés sont affichés dans le kanban. Ceux qui sont terminés sont réduits.",
 			"caption": "Vue partielle des travaux en cours et terminés d'un projet.",
 			"img": "works.png",
 			"mode": 1
 		},
 		{
 			"name": "Vision d'ensemble",
-			"description": "Par défaut, tout ce qui se passe dans les divers projets est visible par tout le collectif. Cela permet d'avoir une vision d'ensemble du travail qui se passe dans le collectif et de l'avancement des projets.\n L'intégration de nouvelles personnes dans des projets existants est aussi plus simple puisque l'historique du projet est conservé (anciens travaux et journal de bord), et les participant·es, les échéances ainsi que les tâches à faire, sont consultables.",
+			"description": "Par défaut, **tout ce qui se passe dans les divers projets est visible** par tout le collectif. Cela permet d'avoir une vision d'ensemble du travail qui se passe dans le collectif et de l'avancement des projets.\n L'intégration de nouvelles personnes dans des projets existants est aussi plus simple puisque l'historique du projet est conservé (anciens travaux et journal de bord), et les participant·es, les échéances ainsi que les tâches à faire, sont consultables.",
 			"caption": "Exemple d'une partie des détails d'un projet avec les groupes participants ainsi qu'un journal de bord.",
 			"img": "globalview.png",
 			"mode": 1
 		},
 		{
 			"name": "Mode d'emploi intégré",
-			"description": "Si vous n'êtes pas à l'aise avec l'informatique, sachez que vous apprendrez petit à petit à utiliser KanFF. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
+			"description": "Si vous n'êtes pas à l'aise avec l'informatique, **sachez que vous apprendrez petit à petit à utiliser KanFF**. Le mode d'emploi intégré est disponible et contient des captures d'écrans et des exemples concrets.\n\n Il est facilement accessible depuis chaque page via un simple bouton. Il évolue et s'améliore au fil du temps.",
 			"caption": "Extrait du mode d'emploi (en cours de rédaction).",
 			"img": "manual.png",
 			"mode": 1
 		},
 		{
 			"name": "Opensource et auto-hébergement",
-			"description": "Le code source est ouvert (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données. \n\nCette transparence permet aussi d'inspecter la base de données, le code, les algorithmes et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de licence libre mais cela arrivera bientôt.",
+			"description": "**Le code source est ouvert** (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données. \n\nCette transparence permet aussi d'inspecter le code, les algorithmes, la base de données et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de licence libre mais cela arrivera bientôt.",
 			"caption": "Extrait d'un bout de code affichant la page Projets.",
 			"img": "code.png",
 			"mode": 1
 		}
 	],
 	"news": {
-		"text": "**Vous souhaitez suivre l'avancement du projet et être averti·e de la sortie de la version 1 ?** Être au courant des nouveautés, des publications et des futurs articles? **Inscrivez-vous à la lettre d'information** pour ne rien manquer ou suivez-nous sur les réseaux sociaux alternatifs.\n\n<br>**Vous souhaitez contribuer à ce projet ?** Il y a de nombreuses manières de nous aider: en signalant les bugs, en faisant des feedbacks, en écrivant du code ou de la documentation? \n\n Pour le moment, nous réfléchissons encore à la meilleure manière de gérer les contributions et de gérer au mieux les retours. \n\nNous aurons besoin d'aide et d'idées dans un futur proche, donc si cela vous intéresse, inscrivez-vous pour rester au courant de l'actualité du projet.",
+		"text": "**Vous souhaitez suivre l'avancement du projet et être averti·e de la sortie de la version 1 ?** Être au courant des nouveautés, des publications et des futurs articles? **Inscrivez-vous à la lettre d'information** pour ne rien manquer ou suivez-nous sur les réseaux sociaux alternatifs.\n\n<br>**Vous souhaitez contribuer à ce projet ?** Il y a de nombreuses manières de nous aider: en signalant les bugs, en faisant des feedbacks, en écrivant du code ou de la documentation? \n\n Pour le moment, nous réfléchissons encore à la meilleure manière de gérer les contributions et de gérer au mieux les retours. \n\n**Nous aurons besoin d'aide et d'idées dans un futur proche**, donc si cela vous intéresse, inscrivez-vous pour rester au courant de l'actualité du projet.",
 		"links": [
 			{
 				"name": "Telegram",
@@ -69,7 +69,7 @@
 	},
 	"about": {
 		"intro": "KanFF n'est pas seulement une application, c'est aussi un gros projet qui a maintenant **1 an** (commencé le 26.04.2020) ! Ce projet scolaire a commencé avec 6 apprentis en informatique de 2-3 ème année. Le projet s'est déroulé durant 3 trimestres (avec 6 puis 4 puis 2 personnes) en classe et à la maison.",
-		"text": "Que s'est il passé durant cette première année ? Un article complet sera publiée, mais en résumé, **10 mois de travail** sur du temps libre, plus de **600 heures** de travail cumulées, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, même après tout ce travail l'application n'est pas encore terminée** et il faudra encore plusieurs mois de réflexions, de développement, de tests, de corrections, de design, ... avant qu'une première version stable et utilisable soit publiée. \n\n Maintenant, les cours consacrés au projet sont terminés, mais Samuel et Benoît continuent le projet!"
+		"text": "Que s'est il passé durant cette première année ? En résumé, il y a eu **10 mois de travail** sur du temps libre, plus de **600 heures** de travail cumulées, 10 publications beta, 4 versions de la base de données, ... \n\n**Cependant, même après tout ce travail l'application n'est pas encore terminée** et il faudra encore plusieurs mois de réflexions, de développement, de tests, de corrections, de design, ... avant qu'une première version stable et utilisable soit publiée. \n\n Maintenant, les cours consacrés au projet sont terminés, **mais Samuel et Benoît continuent le projet!** \n\nUn article complet sera publié dans un moment pour détailler les avancées et réflexions de cette année."
 	},
 	"footer": {
 		"notes": "Ce site est mise à jour régulièrement. Si vous avez vu des erreurs ou voulez suggérer des améliorations, merci de nous contacter par email à <abbr title='Remplacez le \"at\" par @ et enlevez les espaces.'>'kanff at pm.me'</abbr>."
