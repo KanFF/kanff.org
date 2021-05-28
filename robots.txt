@@ -1,2 +1,6 @@
 User-agent: *
+Disallow: /node_modules
+Disallow: /js
+Disallow: /old
+Disallow: /imgs
 Allow: /
