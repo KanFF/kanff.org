@@ -60,7 +60,7 @@ function buildAnAdvantage($advantage, $textAtLeft)
 {
 	ob_start();
 ?>
-	<div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-xl sm:rounded-sm md:mb-8 mb-4 border-blue-300 border border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
+	<div style="background-color: #f0f0f0;" class="overflow-hidden pt-2 shadow-xl sm:rounded-sm md:mb-8 mb-4 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l border-solid <?= ($textAtLeft == false && $advantage['mode'] == 1) ? 'lg:flex-row-reverse' : '' ?>
     <?php switch ($advantage['mode']) {
 		case 2:
 			echo 'block';
@@ -112,7 +112,7 @@ function getAboutSection($about, $contributors)
 {
 	ob_start();
 ?>
-	<div class=" bg-gray-100 border-blue-300 border sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
+	<div class=" bg-gray-100 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l  sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
 		<div class="w-full">
 			<div>
 				<h2 class="text-2xl"><?= SECTIONS['about'] ?></h2>
@@ -178,7 +178,7 @@ function getNewsLetterSection($news)
 {
 	ob_start();
 ?>
-	<div class="bg-gray-100 border-blue-300 border sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center md:mb-6 mb-3">
+	<div class="bg-gray-100 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l  sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center md:mb-6 mb-3">
 		<div style="flex: 4">
 			<h2 class="text-2xl mb-2"><?= SECTIONS['newsletter'] ?></h2>
 			<div class=" md:text-base text-sm">
@@ -192,6 +192,7 @@ function getNewsLetterSection($news)
 					<?php foreach ($news['links'] as $link) { ?>
 						<div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
 					<?php } ?>
+					<div class="h-10 m-1 rounded-full bg-gray-200 hover:bg-gray-300 w-10 flex items-center justify-center text-2xl cursor-help" title="D'autres réseaux sociaux alternatifs seront ajoutés prochainement...">···</div>
 				</div>
 			</div>
 			<span class="text-sm text-gray-400"><?= $news['newsletter-subscription'] ?></span>
