@@ -22,8 +22,8 @@ function getBanner($kanff)
 				<div class="mx-4 pt-1 text-center text-sm mb-1 flex justify-center flex-wrap items-center">
 					<!-- TODO: translate the shields description -->
 					<object class="h-5 mr-1 mb-1" data="https://img.shields.io/badge/Version-En%20cours%20de%20d%C3%A9veloppement.-ffc437?link=https://github.com/samuelroland/kanFF/releases" alt="Stars number"></object>
-					<object class="h-5 mr-1 mb-1" data="https://img.shields.io/github/stars/samuelroland/KanFF?color=green&label=Etoiles&link=https://github.com/samuelroland/KanFF/stargazers" alt="Stars number"></object>
-					<object class="h-5 mr-1 mb-1" data="https://img.shields.io/github/contributors/samuelroland/KanFF?color=blue&label=Contributeur%C2%B7ices" alt="Contributors number"></object>
+					<object class="h-5 mr-1 mb-1" data="https://img.shields.io/github/stars/samuelroland/KanFF?color=green&label=Étoiles&link=https://github.com/samuelroland/KanFF/stargazers" alt="Stars number"></object>
+					<object class="h-5 mr-1 mb-1" data="https://img.shields.io/github/contributors/samuelroland/KanFF?color=blue&label=Contributeur%C2%B7ices&link=https://github.com/samuelroland/KanFF/contributors" alt="Contributors number"></object>
 					<object class="h-5 mr-1 mb-1" data="https://img.shields.io/github/commit-activity/y/samuelroland/KanFF?color=yellowgreen&label=Activit%C3%A9%20en%20commits" alt="Contributors number">
 					</object>
 				</div>
