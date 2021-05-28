@@ -202,7 +202,7 @@ function getNewsLetterSection($news)
 
 				<div id="phplistsubscriberesult" class="text-green-600"></div>
 				<form action="https://kanffnews.hosted.phplist.com/lists/?p=subscribe&id=1" method="post" id="phplistsubscribeform">
-					<input type="text" name="email" value="" id="emailaddress" class="w-full p-1 outline-none focus:bg-gray-200 rounded-sm text-black md:text-base text-sm" placeholder="email@example.com" /><br>
+					<input type="text" name="email" value="" id="emailaddress" class="w-full p-1 outline-none focus:bg-gray-200 rounded-sm text-black md:text-base text-sm" placeholder="<?= $news['email-placeholder'] ?>" /><br>
 					<button type="submit" id="phplistsubscribe" class="bg-gray-300 hover:bg-blue-300 px-3 py-1 rounded-sm mt-2">S'inscrire</button>
 					<script>
 						var waitImage = "js/busy.gif";

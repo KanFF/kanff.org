@@ -46,14 +46,14 @@
 		},
 		{
 			"name": "Opensource et auto-hébergement",
-			"description": "**Le code source est ouvert** (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Il est donc possible d'auto-héberger une instance et ainsi d'avoir le contrôle sur ses données. \n\nCette transparence permet aussi d'inspecter le code, les algorithmes, la base de données et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de licence libre mais cela arrivera bientôt.",
+			"description": "**Le code source est ouvert** (et disponible <a href='https://github.com/samuelroland/KanFF' class='underline hover:text-blue-500'>sur GitHub</a>). Avec quelques connaissances techniques, il est donc possible d'installer une instance KanFF soi-même et d'avoir ainsi le contrôle sur ses données, mais aussi de contribuer à KanFF. \n\nCette transparence permet aussi d'inspecter le code, les algorithmes, la base de données et de vérifier que la documentation n'est pas trompeuse. KanFF n'a pas encore de licence libre mais cela arrivera bientôt.",
 			"caption": "Extrait d'un bout de code affichant la page Projets.",
 			"img": "code.png",
 			"mode": 1
 		}
 	],
 	"news": {
-		"text": "**Vous souhaitez suivre l'avancement du projet et être averti·e de la sortie de la version 1 ?** Être au courant des nouveautés, des publications et des futurs articles? **Inscrivez-vous à la lettre d'information** pour ne rien manquer ou suivez-nous sur les réseaux sociaux alternatifs.\n\n<br>**Vous souhaitez contribuer à ce projet ?** Il y a de nombreuses manières de nous aider: en signalant les bugs, en faisant des feedbacks, en écrivant du code ou de la documentation? \n\n Pour le moment, nous réfléchissons encore à la meilleure manière de gérer les contributions et de gérer au mieux les retours. \n\n**Nous aurons besoin d'aide et d'idées dans un futur proche**, donc si cela vous intéresse, inscrivez-vous pour rester au courant de l'actualité du projet.",
+		"text": "**Vous souhaitez suivre l'avancement du projet et être averti·e de la sortie de la version 1 ?** Être au courant des nouveautés, des publications et des futurs articles? **Inscrivez-vous à la lettre d'information** pour ne rien manquer ou suivez-nous sur les réseaux sociaux alternatifs.\n\n<br>**Vous souhaitez contribuer à ce projet ?** Il y a de nombreuses manières de nous aider: en signalant les bugs, en faisant des feedbacks, en écrivant du code, en rédigeant le mode d'emploi ou de la documentation.\n\n Pour le moment, nous réfléchissons encore à la meilleure manière de gérer les contributions externes et à comment gérer les retours le plus efficacement possible. \n\n**Nous aurons besoin d'aide et d'idées dans un futur proche**, donc si cela vous intéresse, inscrivez-vous pour rester au courant de l'actualité du projet.",
 		"links": [
 			{
 				"name": "Telegram",
@@ -63,7 +63,8 @@
 			}
 		],
 		"follow-social-networks": "Suivez-nous sur les réseaux sociaux:",
-		"newsletter-subscription": "Et inscrivez-vous à la lettre d'information",
+		"newsletter-subscription": "Et inscrivez-vous à la lettre d'information:",
+		"email-placeholder": "email@exemple.com",
 		"subscription-response-title": "Merci pour votre intérêt !",
 		"subscription-response-text": "Il ne reste plus qu'à <strong>confirmer votre inscription</strong> via un lien dans le mail qui vous a été envoyé. (Vérifiez aussi vos indésirables)."
 	},
