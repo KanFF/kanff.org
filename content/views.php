@@ -221,7 +221,7 @@ function getFooter($footer)
 {
 	ob_start();
 ?>
-	<div class="w-full border px-1 bg-gray-100 sm:rounded-sm border-gray-300 text-xs sm:text-sm">
+	<div class="w-full border  border-r-0 border-l-0 sm:border-r sm:border-l px-1 bg-gray-100 sm:rounded-sm border-gray-300 text-xs sm:text-sm">
 		<?= $footer['notes'] ?>
 
 	</div>
