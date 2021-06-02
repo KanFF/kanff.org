@@ -57,8 +57,14 @@
 		"links": [
 			{
 				"name": "Telegram",
-				"icon": "telegram.png",
+				"icon": "telegram.svg",
 				"link": "https://t.me/KanFFNews",
+				"lang": "en"
+			},
+			{
+				"name": "Mastodon",
+				"icon": "mastodon.svg",
+				"link": "https://fosstodon.org/@kanff",
 				"lang": "en"
 			}
 		],
