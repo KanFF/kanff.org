@@ -190,7 +190,7 @@ function getNewsLetterSection($news)
 				<span class="text-sm text-gray-400 mr-3"><?= $news['follow-social-networks'] ?></span>
 				<div class="flex justify-center items-center">
 					<?php foreach ($news['links'] as $link) { ?>
-						<div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
+						<div class="h-10 m-1 "><a target="_blank" href="<?= $link['link'] ?>" title="<?= $link['name'] ?>"><img src="imgs/<?= $link['icon'] ?>" class="h-10" alt=""></a></div>
 					<?php } ?>
 					<div class="h-10 m-1 rounded-full bg-gray-200 hover:bg-gray-300 w-10 flex items-center justify-center text-2xl cursor-help" title="D'autres réseaux sociaux alternatifs seront ajoutés prochainement...">···</div>
 				</div>
