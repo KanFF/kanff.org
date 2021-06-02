@@ -7,3 +7,6 @@ dist/
 # Npm packages files
 node_modules
 perso
+
+# Mac files
+.DS_Store
