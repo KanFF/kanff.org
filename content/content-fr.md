@@ -7,5 +7,6 @@
 {banner}
 {advantages}
 {newsletter}
+{faq}
 {about}
 {footer}

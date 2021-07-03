@@ -107,6 +107,39 @@ function buildAnAdvantage($advantage, $textAtLeft)
 	return ob_get_clean();
 }
 
+//Get HTML of the FAQ section
+function getFAQSection($faq)
+{
+	$questions = $faq['questions'];
+	//TODO: order questions by value index
+	ob_start();
+?>
+	<div class=" bg-gray-100 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l  sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
+		<div class="w-full">
+			<div>
+				<h2 class="text-2xl"><?= SECTIONS['faq'] ?></h2>
+				<div class="flex-1 mr-6 mt-2  md:text-sm italic text-sm">
+					<?= MDToHTML($faq['description']) ?>
+				</div>
+			</div>
+			<hr class="border-blue-300 my-2">
+			<div class="w-full flex-wrap">
+				<?php foreach ($questions as $question) { ?>
+					<div class="sm:flex-1 my-2 px-1">
+						<p class=" text-base font-semibold text-yellow-700 italic"><?= $question['question'] ?></p>
+						<div class="text-sm pl-4">
+							<p class="pt-1"><span class="font-semibold">En bref: </span><?= $question['shortanswer'] ?></p>
+							<p class="pt-1"><?= $question['answer'] ?></p>
+						</div>
+					</div>
+				<?php  } ?>
+			</div>
+		</div>
+	</div>
+<?php
+	return ob_get_clean();
+}
+
 //Get HTML of the About section
 function getAboutSection($about, $contributors)
 {
