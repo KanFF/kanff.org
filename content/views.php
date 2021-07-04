@@ -112,7 +112,7 @@ function getAboutSection($about, $contributors)
 {
 	ob_start();
 ?>
-	<div class=" bg-gray-100 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l  sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
+	<div id="about" class=" bg-gray-100 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l  sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 flex items-center md:mb-6 mb-3">
 		<div class="w-full">
 			<div>
 				<h2 class="text-2xl"><?= SECTIONS['about'] ?></h2>
@@ -178,7 +178,7 @@ function getNewsLetterSection($news)
 {
 	ob_start();
 ?>
-	<div class="bg-gray-100 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l  sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center md:mb-6 mb-3">
+	<div id="news" class="bg-gray-100 border-blue-300 border border-r-0 border-l-0 sm:border-r sm:border-l  sm:rounded-sm shadow-xl lg:px-6 md:px-4 sm:px-3 px-2 lg:py-4 md:py-3 sm:py-2 py-1 lg:flex block items-center md:mb-6 mb-3">
 		<div style="flex: 4">
 			<h2 class="text-2xl mb-2"><?= SECTIONS['newsletter'] ?></h2>
 			<div class=" md:text-base text-sm">
@@ -221,7 +221,7 @@ function getFooter($footer)
 {
 	ob_start();
 ?>
-	<div class="w-full border  border-r-0 border-l-0 sm:border-r sm:border-l px-1 bg-gray-100 sm:rounded-sm border-gray-300 text-xs sm:text-sm">
+	<div id="footer" class="w-full border  border-r-0 border-l-0 sm:border-r sm:border-l px-1 bg-gray-100 sm:rounded-sm border-gray-300 text-xs sm:text-sm">
 		<?= $footer['notes'] ?>
 
 	</div>
