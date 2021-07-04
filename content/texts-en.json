@@ -56,15 +56,21 @@
 		"text": "You wish to follow the progression of the KanFF project ? To receive information about news, releases and future articles ? Maybe contribute to KanFF by reporting bugs, making feedbacks, writing code or documentation ? Subscribe to the newsletter and follow us on alternatives social networks.",
 		"links": [
 			{
-				"name": "Telegram",
+				"name": "Telegram Channel",
 				"icon": "telegram.svg",
 				"link": "https://t.me/KanFFNews",
 				"lang": "en"
 			},
 			{
-				"name": "Mastodon",
+				"name": "Mastodon on fosstodon.org instance",
 				"icon": "mastodon.svg",
 				"link": "https://fosstodon.org/@kanff",
+				"lang": "en"
+			},
+			{
+				"name": "DEV",
+				"icon": "dev.svg",
+				"link": "https://dev.to/KanFF",
 				"lang": "en"
 			}
 		],

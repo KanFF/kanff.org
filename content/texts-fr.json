@@ -56,13 +56,13 @@
 		"text": "**Vous souhaitez suivre l'avancement du projet et être averti·e de la sortie de la version 1 ?** Être au courant des nouveautés, des publications et des futurs articles? **Inscrivez-vous à la lettre d'information** pour ne rien manquer ou suivez-nous sur les réseaux sociaux alternatifs.\n\n<br>**Vous souhaitez contribuer à ce projet ?** Il y a de nombreuses manières de nous aider: en signalant les bugs, en faisant des feedbacks, en écrivant du code, en rédigeant le mode d'emploi ou de la documentation.\n\n Pour le moment, nous réfléchissons encore à la meilleure manière de gérer les contributions externes et à comment gérer les retours le plus efficacement possible. \n\n**Nous aurons besoin d'aide et d'idées dans un futur proche**, donc si cela vous intéresse, inscrivez-vous pour rester au courant de l'actualité du projet.",
 		"links": [
 			{
-				"name": "Telegram",
+				"name": "Canal Telegram",
 				"icon": "telegram.svg",
 				"link": "https://t.me/KanFFNewsFR",
 				"lang": "fr"
 			},
 			{
-				"name": "Mastodon",
+				"name": "Mastodon sur l'instance mastodon.social",
 				"icon": "mastodon.svg",
 				"link": "https://mastodon.social/@kanff",
 				"lang": "fr"
