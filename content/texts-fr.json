@@ -18,7 +18,7 @@
 	"advantages": [
 		{
 			"name": "Kanban",
-			"description": "Le kanban est un système de gestion de tâches très visuel qui peut prendre différentes formes. Dans KanFF, il y a 3 colonnes parce que les tâches ont **3 états possibles: À faire, En cours ou Terminé.** Les tâches sont déplacées de gauche à droite, de colonne en colonne.",
+			"description": "Le kanban est un système de gestion de tâches très visuel. Dans KanFF, il y a 3 colonnes parce que les tâches ont 3 états possibles: À faire, En cours ou Terminé. Les tâches sont déplacées de gauche à droite, de colonne en colonne. Elles ont notamment un·e responsable, un type ",
 			"caption": "Exemple fictif du kanban d'un projet de Crowdfunding",
 			"img": "kanban.png",
 			"mode": 2
