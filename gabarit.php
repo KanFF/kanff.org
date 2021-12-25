@@ -55,8 +55,8 @@ $defaultlanguage = $config['content']['default_language'];
 	//    }
 	//}
 	?>
-
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/fonts.css" type="text/css" charset="utf-8" />
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> -->
 	<!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> -->
 	<link rel="stylesheet" href="node_modules/tailwindcss/dist/tailwind.min.css">
 	<?php
