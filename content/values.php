@@ -6,6 +6,7 @@ define("SECTIONS", $data['SECTIONS']);
 $kanff = $data['kanff'];
 $advantages = $data['advantages'];
 $news = $data['news'];
+$faq = $data['faq'];
 $about = $data['about'];
 $footer = $data['footer'];
 
@@ -20,10 +21,10 @@ $contributors = [
 	['name' => 'XCarrel', 'username' => 'XCarrel', 'img' => 'https://avatars.githubusercontent.com/u/7465241?v=4', 'major' => false],
 ];
 
-
 //Interpolate values in markdown content
 $values['advantages'] = getAdvantages($advantages);
 $values['banner'] = getBanner($kanff);
-$values['about'] = getAboutSection($about, $contributors);
 $values['newsletter'] = getNewsLetterSection($news);
+$values['faq'] = getFAQSection($faq);
+$values['about'] = getAboutSection($about, $contributors);
 $values['footer'] = getFooter($footer);
