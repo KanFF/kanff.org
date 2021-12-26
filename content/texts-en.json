@@ -11,14 +11,14 @@
 		"slogan": "To do, in progress, done. Next!",
 		"definition": "An opensource web application to manage projects with kanban boards, for groups, collectives and associations.",
 		"explanation": "Benefit from the visual and intuitive power of the kanban board to manage tasks on several projects efficiently and collectively.",
-		"pronunciation": "`KanFF` is pronounced `kanεfεf` (like `kanefef`).",
+		"pronunciation": "KanFF is pronounced `kanεfεf` (like `kanefef`).",
 		"wip-tag": "Development in progress."
 	},
 	"problems": "??",
 	"advantages": [
 		{
 			"name": "Kanban",
-			"description": "The kanban board is a very visual task management system that can have multiples forms. In KanFF, there are 3 columns because tasks have only 2 possible states: To do, In progress or Done. Tasks are moved from left to right, from column to another.",
+			"description": "The kanban board is a very visual task management system. In KanFF, there are 3 columns because tasks have 3 possible states: To do, In progress or Done. Tasks are moved from left to right, from column to another.",
 			"caption": "Fictitious example of the kanban of a Crowdfunding project",
 			"img": "kanban.png",
 			"mode": 2
@@ -76,6 +76,7 @@
 		],
 		"follow-social-networks": "Follow us on social networks:",
 		"newsletter-subscription": "Or subscribe to the newsletter",
+		"email-placeholder": "email@exemple.com",
 		"subscription-response-title": "Thanks for you interest ! You are almost there...",
 		"subscription-response-text": "All that remains is to <strong>confirm your subscription</strong> via a link in the email sent to you. (Also check your spam folder)."
 	},

@@ -1,0 +1,84 @@
+{
+	"SECTIONS": {
+		"about": "",
+		"newsletter": "",
+		"contributors": ""
+	},
+	"header": {
+		"published-at": ""
+	},
+	"kanff": {
+		"slogan": "",
+		"definition": "",
+		"explanation": "",
+		"pronunciation": "",
+		"wip-tag": ""
+	},
+	"problems": "",
+	"advantages": [
+		{
+			"name": "",
+			"description": "",
+			"caption": "",
+			"img": "kanban.png",
+			"mode": 2
+		},
+		{
+			"name": "",
+			"description": "",
+			"caption": "",
+			"img": "works.png",
+			"mode": 1
+		},
+		{
+			"name": "",
+			"description": "",
+			"caption": "",
+			"img": "globalview.png",
+			"mode": 1
+		},
+		{
+			"name": "",
+			"description": "",
+			"caption": "",
+			"img": "manual.png",
+			"mode": 1
+		},
+		{
+			"name": "",
+			"description": "",
+			"caption": "",
+			"img": "code.png",
+			"mode": 1
+		}
+	],
+	"news": {
+		"text": "",
+		"links": [
+            {
+				"name": "Telegram",
+				"icon": "telegram.svg",
+				"link": "https://t.me/KanFFNews",
+				"lang": "en"
+			},
+			{
+				"name": "Mastodon",
+				"icon": "mastodon.svg",
+				"link": "https://fosstodon.org/@kanff",
+				"lang": "en"
+			}
+		],
+		"follow-social-networks": "",
+		"newsletter-subscription": "",
+		"email-placeholder": "",
+		"subscription-response-title": "",
+		"subscription-response-text": ""
+	},
+	"about": {
+		"intro": "",
+		"text": ""
+	},
+	"footer": {
+		"notes": ""
+	}
+}
